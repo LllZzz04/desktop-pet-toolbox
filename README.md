@@ -8,10 +8,12 @@
 
 ### 从 GitHub 获取完整项目
 
-动画 PNG 使用 Git LFS。安装 Git for Windows（包含 Git LFS）后，在命令行克隆仓库，并进入项目目录执行：
+动画 PNG 使用 Git LFS。安装 Git for Windows（包含 Git LFS）后，在命令行执行：
 
 ```powershell
 git lfs install
+git clone https://github.com/LllZzz04/desktop-pet-toolbox.git
+cd desktop-pet-toolbox
 git lfs pull
 ```
 
@@ -33,7 +35,7 @@ uv venv --python 3.12 .venv
 uv pip install --python .venv\Scripts\python.exe -r requirements.txt
 ```
 
-当前工作目录已经创建了虚拟环境并安装了 PySide6 和 RapidOCR 依赖。Python 虚拟环境不适合直接复制到另一台机器，迁移时请重新安装。更新旧版本时，再执行一次安装 requirements.txt 的命令。
+本机开发目录已有虚拟环境和依赖；GitHub 仓库不包含虚拟环境，首次克隆后请按上面步骤安装。Python 虚拟环境不适合直接复制到另一台机器，迁移时请重新安装。更新旧版本时，再执行一次安装 requirements.txt 的命令。
 
 文字提取使用随 RapidOCR 安装包附带的本地模型，不需要另装 Tesseract 或下载语言包。翻译需要另外安装并启动 [Ollama for Windows](https://ollama.com/download/windows)，然后下载默认模型：
 
