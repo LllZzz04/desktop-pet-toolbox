@@ -1,0 +1,73 @@
+[
+  {
+    "time": 1.0,
+    "type": "variant",
+    "name": "idle_look_around"
+  },
+  {
+    "time": 6.0,
+    "type": "variant",
+    "name": "idle_yawn"
+  },
+  {
+    "time": 10.5,
+    "type": "attention",
+    "duration": 2.6
+  },
+  {
+    "time": 13.5,
+    "type": "click",
+    "count": 1,
+    "region": "head"
+  },
+  {
+    "time": 14.8,
+    "type": "click",
+    "count": 3,
+    "region": "head"
+  },
+  {
+    "time": 16.8,
+    "type": "click",
+    "count": 6,
+    "region": "head"
+  },
+  {
+    "time": 19.2,
+    "type": "click",
+    "count": 6,
+    "region": "chest"
+  },
+  {
+    "time": 21.6,
+    "type": "click",
+    "count": 6,
+    "region": "legs"
+  },
+  {
+    "time": 25.5,
+    "type": "drag"
+  },
+  {
+    "time": 30.4,
+    "type": "working",
+    "enabled": true
+  },
+  {
+    "time": 34.4,
+    "type": "success"
+  },
+  {
+    "time": 36.0,
+    "type": "working",
+    "enabled": true
+  },
+  {
+    "time": 38.5,
+    "type": "error"
+  },
+  {
+    "time": 40.6,
+    "type": "idle"
+  }
+]

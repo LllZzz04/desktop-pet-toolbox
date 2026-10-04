@@ -1,0 +1,13 @@
+{
+	"failures": [],
+	"metrics": {
+		"mesh_flips": 0,
+		"mesh_max_ratio": 1.30653948723209,
+		"mesh_min_ratio": 0.660803857791524,
+		"normal_idle_exact": true,
+		"success_final_foot_drift_px": 0.0,
+		"success_lift_px": 22.0
+	},
+	"pass": true,
+	"stage": "E"
+}

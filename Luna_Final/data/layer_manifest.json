@@ -1,0 +1,1517 @@
+{
+  "schema_version": 2,
+  "status": "Final 1.0: full-canvas source materials; runtime rig is bound and validated",
+  "canvas_size": [
+    1536,
+    2304
+  ],
+  "coordinate_system": "world/canvas pixels; origin top-left; +X right; +Y down",
+  "source_sha256": "c804cab9fa0358fe90e92d98212e0bee55963cacb8653d5aa0e8e8e3258c1699",
+  "all_textures_full_canvas": true,
+  "texture_color_values": "source RGB retained except localized skin/closed-eye patches; original input has no embedded ICC profile",
+  "alpha_policy": "Approved RGBA retained; six facial layers include Phase3.6 patch cleanup. Runtime transparent RGB bleed retained separately.",
+  "default_eye_state": "open",
+  "layer_count": 34,
+  "default_visible_count": 32,
+  "layers": [
+    {
+      "id": "cape_R_tail",
+      "name": "cape_R_tail",
+      "group": "Cape",
+      "file": "layers/Cape/cape_R_tail.png",
+      "source_layer_id": 1,
+      "source_layer_name": "披风_后摆 Back Cape",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        130,
+        1382,
+        849,
+        2159
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "cape_R_mid",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        422,
+        1500
+      ],
+      "mesh_influences_suggested": [
+        "cape_R_mid",
+        "cape_R_tip"
+      ],
+      "notes": "Upper/tail 128px same-source opaque underlap; tail root/seam weights remain continuous.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 0,
+      "sha256": "6b59801a04a152a24ab4b0c17409a5cb26ef4f6a0950d1b703e2b7401c732506"
+    },
+    {
+      "id": "cape_L_tail",
+      "name": "cape_L_tail",
+      "group": "Cape",
+      "file": "layers/Cape/cape_L_tail.png",
+      "source_layer_id": 1,
+      "source_layer_name": "披风_后摆 Back Cape",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        684,
+        1382,
+        1405,
+        2160
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "cape_L_mid",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        1137,
+        1500
+      ],
+      "mesh_influences_suggested": [
+        "cape_L_mid",
+        "cape_L_tip"
+      ],
+      "notes": "Upper/tail 128px same-source opaque underlap; tail root/seam weights remain continuous.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 1,
+      "sha256": "bfc4b215d18119dc82798fb15dba2bc19c130e69c20e2264eb63163f5c6b0b2f"
+    },
+    {
+      "id": "cape_R_upper",
+      "name": "cape_R_upper",
+      "group": "Cape",
+      "file": "layers/Cape/cape_R_upper.png",
+      "source_layer_id": 1,
+      "source_layer_name": "披风_后摆 Back Cape",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        319,
+        962,
+        896,
+        1638
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "cape_R_root",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        535,
+        1060
+      ],
+      "mesh_influences_suggested": [
+        "chest",
+        "cape_R_root",
+        "cape_R_mid"
+      ],
+      "notes": "",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 2,
+      "sha256": "b09e1268c4892ab3c72ee978a4c80407885cffe25392d9848940a172651d5334"
+    },
+    {
+      "id": "cape_L_upper",
+      "name": "cape_L_upper",
+      "group": "Cape",
+      "file": "layers/Cape/cape_L_upper.png",
+      "source_layer_id": 1,
+      "source_layer_name": "披风_后摆 Back Cape",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        640,
+        962,
+        1217,
+        1638
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "cape_L_root",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        1000,
+        1060
+      ],
+      "mesh_influences_suggested": [
+        "chest",
+        "cape_L_root",
+        "cape_L_mid"
+      ],
+      "notes": "",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 3,
+      "sha256": "f3f73e058fa0cd28b367221255705aebf0fc72e7fbec1564ccbf72349a553390"
+    },
+    {
+      "id": "cape_neck",
+      "name": "cape_neck",
+      "group": "Cape",
+      "file": "layers/Cape/cape_neck.png",
+      "source_layer_id": 1,
+      "source_layer_name": "披风_后摆 Back Cape",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        440,
+        835,
+        1090,
+        1218
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "cape_root",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        768,
+        905
+      ],
+      "mesh_influences_suggested": [
+        "cape_root"
+      ],
+      "notes": "Collar/yoke follows chest; lock this anchor.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 4,
+      "sha256": "919f254a04043ef6d95ae665ff0687cb2edc5234dd4f8c0c6b69913959ad0782"
+    },
+    {
+      "id": "tail_charm_R",
+      "name": "tail_charm_R",
+      "group": "Accessory",
+      "file": "layers/Accessory/tail_charm_R.png",
+      "source_layer_id": 2,
+      "source_layer_name": "配饰_右尾摆吊坠 Right Tail Charm",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        250,
+        1830,
+        325,
+        2170
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "tail_charm_R",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        287,
+        1830
+      ],
+      "mesh_influences_suggested": [
+        "tail_charm_R"
+      ],
+      "notes": "Original pixels and world position retained.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 5,
+      "sha256": "2e46745bfb629c5b27d9153c7e1808bc748e6de4d65557ed540076e3da0d1c63"
+    },
+    {
+      "id": "tail_charm_L",
+      "name": "tail_charm_L",
+      "group": "Accessory",
+      "file": "layers/Accessory/tail_charm_L.png",
+      "source_layer_id": 3,
+      "source_layer_name": "配饰_左尾摆吊坠 Left Tail Charm",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        1211,
+        1830,
+        1285,
+        2145
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "tail_charm_L",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        1247,
+        1830
+      ],
+      "mesh_influences_suggested": [
+        "tail_charm_L"
+      ],
+      "notes": "Original pixels and world position retained.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 6,
+      "sha256": "3f6e1ed3425245b96915fb529aa6d8eadf647bd6c65aa723cc91c4288bf52a0a"
+    },
+    {
+      "id": "cape_charm_R",
+      "name": "cape_charm_R",
+      "group": "Accessory",
+      "file": "layers/Accessory/cape_charm_R.png",
+      "source_layer_id": 4,
+      "source_layer_name": "配饰_右披风吊坠 Right Cape Charm",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        385,
+        1500,
+        460,
+        1785
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "cape_charm_R",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        422,
+        1500
+      ],
+      "mesh_influences_suggested": [
+        "cape_charm_R"
+      ],
+      "notes": "Original pixels and world position retained.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 7,
+      "sha256": "6b79350f5ab2016b747cbc0414abbb62ee4fbe3dfbbc146f932fe649e801b6ba"
+    },
+    {
+      "id": "cape_charm_L",
+      "name": "cape_charm_L",
+      "group": "Accessory",
+      "file": "layers/Accessory/cape_charm_L.png",
+      "source_layer_id": 5,
+      "source_layer_name": "配饰_左披风吊坠 Left Cape Charm",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        1100,
+        1500,
+        1175,
+        1785
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "cape_charm_L",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        1137,
+        1500
+      ],
+      "mesh_influences_suggested": [
+        "cape_charm_L"
+      ],
+      "notes": "Original pixels and world position retained.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 8,
+      "sha256": "eead8f9fcdd86848b31ce341a024fb5f742f5b6eea7a728d0b99839fcd06ff11"
+    },
+    {
+      "id": "leg_L",
+      "name": "leg_L",
+      "group": "Body",
+      "file": "layers/Body/leg_L.png",
+      "source_layer_id": 6,
+      "source_layer_name": "右腿 Right Leg (角色右/画面左)",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        791,
+        1383,
+        1049,
+        2170
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hip_L",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        920,
+        1465
+      ],
+      "mesh_influences_suggested": [
+        "hip_L",
+        "knee_L",
+        "foot_L"
+      ],
+      "notes": "Original pixels and world position retained. Anatomical side corrected by current viewer position; original source label preserved only as provenance. No pixels mirrored or moved.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 9,
+      "sha256": "434e8fd7d3b52c35c30543ac1f95a21d92648d03009eb9cd9fd95ec77a477c08"
+    },
+    {
+      "id": "leg_R",
+      "name": "leg_R",
+      "group": "Body",
+      "file": "layers/Body/leg_R.png",
+      "source_layer_id": 7,
+      "source_layer_name": "左腿 Left Leg (角色左/画面右)",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        482,
+        1383,
+        739,
+        2170
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hip_R",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        640,
+        1465
+      ],
+      "mesh_influences_suggested": [
+        "hip_R",
+        "knee_R",
+        "foot_R"
+      ],
+      "notes": "Original pixels and world position retained. Anatomical side corrected by current viewer position; original source label preserved only as provenance. No pixels mirrored or moved.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 10,
+      "sha256": "b179d9daa32abed7085bae5096c9e33805726b6740c78b687e16c5ad42ca4665"
+    },
+    {
+      "id": "skirt",
+      "name": "skirt",
+      "group": "Body",
+      "file": "layers/Body/skirt.png",
+      "source_layer_id": 8,
+      "source_layer_name": "裙摆 Skirt",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        456,
+        1210,
+        1084,
+        1680
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "skirt_root",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        768,
+        1235
+      ],
+      "mesh_influences_suggested": [
+        "skirt_root",
+        "skirt_L",
+        "skirt_R"
+      ],
+      "notes": "Original pixels and world position retained.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 11,
+      "sha256": "1d3b1f879c771f72a56c4cc63402ebc8ceff8faf09b3b9bb3f57cbfc343badd2"
+    },
+    {
+      "id": "torso",
+      "name": "torso",
+      "group": "Body",
+      "file": "layers/Body/torso.png",
+      "source_layer_id": 9,
+      "source_layer_name": "身体 Body",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        588,
+        797,
+        952,
+        1280
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "chest",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        768,
+        965
+      ],
+      "mesh_influences_suggested": [
+        "pelvis",
+        "spine",
+        "chest"
+      ],
+      "notes": "Original pixels and world position retained.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 12,
+      "sha256": "582120341dc862a5ada8e685c802ca9a3eaf79abde72f4cc1275c1adfcec9c58"
+    },
+    {
+      "id": "back_hair",
+      "name": "back_hair",
+      "group": "Hair",
+      "file": "layers/Hair/back_hair.png",
+      "source_layer_id": 10,
+      "source_layer_name": "头发_后发 Back Hair",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        392,
+        251,
+        1119,
+        806
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hair_back_root",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        755,
+        320
+      ],
+      "mesh_influences_suggested": [
+        "head",
+        "hair_back_root"
+      ],
+      "notes": "",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 13,
+      "sha256": "d0474c7ae1a54983acc3e7c8588075bc97dfb4599ecc9511745d6ddf0e7fa9cf"
+    },
+    {
+      "id": "hair_tip_R",
+      "name": "hair_tip_R",
+      "group": "Hair",
+      "file": "layers/Hair/hair_tip_R.png",
+      "source_layer_id": 10,
+      "source_layer_name": "头发_后发 Back Hair",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        415,
+        694,
+        824,
+        923
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hair_back_R",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        550,
+        750
+      ],
+      "mesh_influences_suggested": [
+        "hair_back_R",
+        "hair_back_R_tip"
+      ],
+      "notes": "",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 14,
+      "sha256": "8add128556b4e647ece2a59967ad28c978cf506cf5cc6ddd0361edc90f850736"
+    },
+    {
+      "id": "hair_tip_L",
+      "name": "hair_tip_L",
+      "group": "Hair",
+      "file": "layers/Hair/hair_tip_L.png",
+      "source_layer_id": 10,
+      "source_layer_name": "头发_后发 Back Hair",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        712,
+        694,
+        1071,
+        926
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hair_back_L",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        985,
+        750
+      ],
+      "mesh_influences_suggested": [
+        "hair_back_L",
+        "hair_back_L_tip"
+      ],
+      "notes": "",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 15,
+      "sha256": "3328cac7b1ad85bc46dbc668bb8b9e69571cb3d18d36f14ccef31fbc24470ed6"
+    },
+    {
+      "id": "arm_R",
+      "name": "arm_R",
+      "group": "Body",
+      "file": "layers/Body/arm_R.png",
+      "source_layer_id": 11,
+      "source_layer_name": "右臂 Right Arm (角色右/画面左)",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        288,
+        829,
+        653,
+        1365
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "shoulder_R",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        610,
+        870
+      ],
+      "mesh_influences_suggested": [
+        "shoulder_R"
+      ],
+      "notes": "Original pixels and world position retained. Arm and sleeve remain one native painted layer; no internal sleeve articulation in this phase.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 16,
+      "sha256": "b6f022404fc780ddfba4ca061d6d8f63a64402922bff3cfcfbabdd04ba33c7f0"
+    },
+    {
+      "id": "arm_L",
+      "name": "arm_L",
+      "group": "Body",
+      "file": "layers/Body/arm_L.png",
+      "source_layer_id": 12,
+      "source_layer_name": "左臂 Left Arm (角色左/画面右)",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        881,
+        829,
+        1246,
+        1365
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "shoulder_L",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        930,
+        870
+      ],
+      "mesh_influences_suggested": [
+        "shoulder_L"
+      ],
+      "notes": "Original pixels and world position retained. Arm and sleeve remain one native painted layer; no internal sleeve articulation in this phase.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 17,
+      "sha256": "b73f7604be49cc04bd385f25884189ec3a729c8fc13177797b8e609941a2a1a5"
+    },
+    {
+      "id": "hand_R",
+      "name": "hand_R",
+      "group": "Body",
+      "file": "layers/Body/hand_R.png",
+      "source_layer_id": 13,
+      "source_layer_name": "右手 Right Hand (角色右/画面左)",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        243,
+        1250,
+        393,
+        1425
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hand_R",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        359,
+        1276
+      ],
+      "mesh_influences_suggested": [
+        "hand_R"
+      ],
+      "notes": "Original pixels and world position retained.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 18,
+      "sha256": "66bddedd9ce0a8874b066660cc85a2b71a0418a853303ca4b76ecef319896916"
+    },
+    {
+      "id": "hand_L",
+      "name": "hand_L",
+      "group": "Body",
+      "file": "layers/Body/hand_L.png",
+      "source_layer_id": 14,
+      "source_layer_name": "左手 Left Hand (角色左/画面右)",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        1147,
+        1250,
+        1297,
+        1425
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hand_L",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        1182,
+        1276
+      ],
+      "mesh_influences_suggested": [
+        "hand_L"
+      ],
+      "notes": "Original pixels and world position retained.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 19,
+      "sha256": "595a63b406136ff5f18283bb3812fc80d448e1739ce746dd09f4e4192faec574"
+    },
+    {
+      "id": "face_base",
+      "name": "face_base",
+      "group": "Head",
+      "file": "layers/Head/face_base.png",
+      "source_layer_id": 15,
+      "source_layer_name": "头 Head",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        528,
+        385,
+        1017,
+        903
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "head",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        772,
+        842
+      ],
+      "mesh_influences_suggested": [
+        "head"
+      ],
+      "notes": "Phase3.6: complete independent skin base",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 20,
+      "sha256": "191176437affce13cc20af87c154a41d3c9f4f68039cd22b6c7ac860136d7e57",
+      "phase3_6_facefix": true
+    },
+    {
+      "id": "mouth",
+      "name": "mouth",
+      "group": "Head",
+      "file": "layers/Head/mouth.png",
+      "source_layer_id": 15,
+      "source_layer_name": "头 Head",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        766,
+        766,
+        783,
+        772
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "head",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        770,
+        768
+      ],
+      "mesh_influences_suggested": [
+        "head"
+      ],
+      "notes": "Phase3.6: native feature pigment matte; skin buffer removed",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 21,
+      "sha256": "ff057b9bcb97b068cf33e77dfb261c328185be6dacf25d7a703c1bdf6b34cfaa",
+      "phase3_6_facefix": true
+    },
+    {
+      "id": "eye_R_open",
+      "name": "eye_R_open",
+      "group": "Head",
+      "file": "layers/Head/eye_R_open.png",
+      "source_layer_id": 15,
+      "source_layer_name": "头 Head",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        576,
+        635,
+        730,
+        738
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": "eye_R",
+      "primary_bone": "head",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        669,
+        699
+      ],
+      "mesh_influences_suggested": [
+        "head"
+      ],
+      "notes": "Phase3.6: native feature pigment matte; skin buffer removed",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 22,
+      "sha256": "8c221610cd4bf719618f3a032257ca13cdd07c91f0affe7278f8c02c762d3e79",
+      "phase3_6_facefix": true
+    },
+    {
+      "id": "eye_R_closed",
+      "name": "eye_R_closed",
+      "group": "Head",
+      "file": "layers/Head/eye_R_closed.png",
+      "source_layer_id": 15,
+      "source_layer_name": "头 Head",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        587,
+        668,
+        720,
+        712
+      ],
+      "default_visible": false,
+      "exclusive_variant_group": "eye_R",
+      "primary_bone": "head",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        669,
+        699
+      ],
+      "mesh_influences_suggested": [
+        "head"
+      ],
+      "notes": "Phase3.6: native feature pigment matte; skin buffer removed",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 23,
+      "sha256": "db36c85ecee93e87cd0db377d7972d202bcc61e62ebd1fe68189b7e150096384",
+      "phase3_6_facefix": true
+    },
+    {
+      "id": "eye_L_open",
+      "name": "eye_L_open",
+      "group": "Head",
+      "file": "layers/Head/eye_L_open.png",
+      "source_layer_id": 15,
+      "source_layer_name": "头 Head",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        815,
+        635,
+        975,
+        738
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": "eye_L",
+      "primary_bone": "head",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        872,
+        699
+      ],
+      "mesh_influences_suggested": [
+        "head"
+      ],
+      "notes": "Phase3.6: native feature pigment matte; skin buffer removed",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 24,
+      "sha256": "8c204815e30c8b55b7a9f5a212bfeb6010d6ecf2c4d52b79301ec82d27cdbce3",
+      "phase3_6_facefix": true
+    },
+    {
+      "id": "eye_L_closed",
+      "name": "eye_L_closed",
+      "group": "Head",
+      "file": "layers/Head/eye_L_closed.png",
+      "source_layer_id": 15,
+      "source_layer_name": "头 Head",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        821,
+        669,
+        967,
+        712
+      ],
+      "default_visible": false,
+      "exclusive_variant_group": "eye_L",
+      "primary_bone": "head",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        872,
+        699
+      ],
+      "mesh_influences_suggested": [
+        "head"
+      ],
+      "notes": "Phase3.6: native feature pigment matte; skin buffer removed",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 25,
+      "sha256": "799191918b47c3e89a93c32db0f45c877c1f7307cea79a538b24b8fadafc1018",
+      "phase3_6_facefix": true
+    },
+    {
+      "id": "side_hair_R",
+      "name": "side_hair_R",
+      "group": "Hair",
+      "file": "layers/Hair/side_hair_R.png",
+      "source_layer_id": 16,
+      "source_layer_name": "头发_前发 Front Hair",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        380,
+        250,
+        769,
+        858
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hair_side_R",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        530,
+        500
+      ],
+      "mesh_influences_suggested": [
+        "head",
+        "hair_side_R",
+        "hair_side_R_tip"
+      ],
+      "notes": "",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 26,
+      "sha256": "ef8a1f6e781b3375fa3509281e90eb380e080f199273a7347fd12e23232e0146"
+    },
+    {
+      "id": "side_hair_L",
+      "name": "side_hair_L",
+      "group": "Hair",
+      "file": "layers/Hair/side_hair_L.png",
+      "source_layer_id": 16,
+      "source_layer_name": "头发_前发 Front Hair",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        762,
+        259,
+        1126,
+        861
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hair_side_L",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        1010,
+        500
+      ],
+      "mesh_influences_suggested": [
+        "head",
+        "hair_side_L",
+        "hair_side_L_tip"
+      ],
+      "notes": "",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 27,
+      "sha256": "77104bbb274ddd3380807f517718a946013008a4553e79f6f956098cc18c371a"
+    },
+    {
+      "id": "bang_R",
+      "name": "bang_R",
+      "group": "Hair",
+      "file": "layers/Hair/bang_R.png",
+      "source_layer_id": 16,
+      "source_layer_name": "头发_前发 Front Hair",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        581,
+        390,
+        713,
+        662
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hair_bang_R",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        685,
+        420
+      ],
+      "mesh_influences_suggested": [
+        "head",
+        "hair_bang_R",
+        "hair_bang_R_tip"
+      ],
+      "notes": "",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 28,
+      "sha256": "95af9a17e825550e99315cfd73f1f3463105250c612dc9eea1fe8309a6b1bb47"
+    },
+    {
+      "id": "bang_L",
+      "name": "bang_L",
+      "group": "Hair",
+      "file": "layers/Hair/bang_L.png",
+      "source_layer_id": 16,
+      "source_layer_name": "头发_前发 Front Hair",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        756,
+        328,
+        1029,
+        656
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hair_bang_L",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        844,
+        415
+      ],
+      "mesh_influences_suggested": [
+        "head",
+        "hair_bang_L",
+        "hair_bang_L_tip"
+      ],
+      "notes": "",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 29,
+      "sha256": "80c2910544edc97542c8b6eb6b99ac97aad36e3deb66dc82e879139eaf44f4ca"
+    },
+    {
+      "id": "bang_center",
+      "name": "bang_center",
+      "group": "Hair",
+      "file": "layers/Hair/bang_center.png",
+      "source_layer_id": 16,
+      "source_layer_name": "头发_前发 Front Hair",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        583,
+        250,
+        1010,
+        836
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hair_bangs",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        755,
+        400
+      ],
+      "mesh_influences_suggested": [
+        "head",
+        "hair_bangs",
+        "hair_bangs_tip"
+      ],
+      "notes": "Contains fixed crown remainder; weight crown to head and only lower central strand to movable controls.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 30,
+      "sha256": "21f9e02cfd4ca4901f02664508fe102645d38c7ceb4fd8b0046db019bb941cfc"
+    },
+    {
+      "id": "ahoge",
+      "name": "ahoge",
+      "group": "Hair",
+      "file": "layers/Hair/ahoge.png",
+      "source_layer_id": 17,
+      "source_layer_name": "呆毛 Ahoge",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        598,
+        132,
+        880,
+        309
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "ahoge_root",
+      "recommended_node_type": "Polygon2D",
+      "pivot_world_px": [
+        650,
+        285
+      ],
+      "mesh_influences_suggested": [
+        "head",
+        "ahoge_root",
+        "ahoge_mid",
+        "ahoge_tip"
+      ],
+      "notes": "Original pixels and world position retained.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 31,
+      "sha256": "acc853049e950281626da41a740fa75afb8044a588d252acb1543c1fc4bf4595"
+    },
+    {
+      "id": "hair_accessory",
+      "name": "hair_accessory",
+      "group": "Accessory",
+      "file": "layers/Accessory/hair_accessory.png",
+      "source_layer_id": 18,
+      "source_layer_name": "配饰_月牙发饰 Hair Accessory",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        917,
+        304,
+        1159,
+        671
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "hair_accessory",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        1035,
+        410
+      ],
+      "mesh_influences_suggested": [
+        "hair_accessory"
+      ],
+      "notes": "Original pixels and world position retained.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 32,
+      "sha256": "9f651f760ab0d162ef137a7980a15358306d30223272bf291848554aba704116"
+    },
+    {
+      "id": "neck_accessory",
+      "name": "neck_accessory",
+      "group": "Accessory",
+      "file": "layers/Accessory/neck_accessory.png",
+      "source_layer_id": 19,
+      "source_layer_name": "配饰_领结宝石 Neck Accessory",
+      "canvas_size": [
+        1536,
+        2304
+      ],
+      "canvas_origin_world_px": [
+        0,
+        0
+      ],
+      "canvas_bbox_xyxy": [
+        0,
+        0,
+        1536,
+        2304
+      ],
+      "content_bbox_xyxy": [
+        608,
+        841,
+        928,
+        1235
+      ],
+      "default_visible": true,
+      "exclusive_variant_group": null,
+      "primary_bone": "neck_accessory",
+      "recommended_node_type": "Sprite2D",
+      "pivot_world_px": [
+        768,
+        885
+      ],
+      "mesh_influences_suggested": [
+        "neck_accessory"
+      ],
+      "notes": "Original pixels and world position retained.",
+      "binding_status": "See LunaRig.tscn and runtime_manifest.json for final runtime binding",
+      "draw_order_back_to_front": 33,
+      "sha256": "14c39e4b1ab990ae4c23a1b9153212a0ff9cbf003fc91cd9792b76c371be7db0"
+    }
+  ],
+  "phase": "3.7; all formal images unchanged; leg binding metadata updated"
+}

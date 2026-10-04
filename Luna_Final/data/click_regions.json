@@ -1,0 +1,38 @@
+{
+  "space": "Rig local, original 1536 x 2304 canvas",
+  "sequence_window_seconds": 2,
+  "angry_count": 6,
+  "cooldown_seconds": 2,
+  "regions": [
+    {
+      "name": "head",
+      "rect": [
+        170,
+        100,
+        1210,
+        800
+      ],
+      "expression": "pout"
+    },
+    {
+      "name": "chest",
+      "rect": [
+        170,
+        900,
+        1210,
+        540
+      ],
+      "expression": "blush"
+    },
+    {
+      "name": "legs",
+      "rect": [
+        170,
+        1440,
+        1210,
+        770
+      ],
+      "expression": "blush"
+    }
+  ]
+}

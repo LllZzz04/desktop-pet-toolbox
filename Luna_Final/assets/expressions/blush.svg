@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="90" viewBox="0 0 390 90">
+  <defs>
+    <radialGradient id="cheek"><stop offset="0" stop-color="#f49488" stop-opacity=".62"/><stop offset=".44" stop-color="#f5978b" stop-opacity=".43"/><stop offset=".78" stop-color="#f69b8f" stop-opacity=".19"/><stop offset="1" stop-color="#f79c91" stop-opacity="0"/></radialGradient>
+    <radialGradient id="band"><stop offset="0" stop-color="#f49488" stop-opacity=".31"/><stop offset=".60" stop-color="#f5988c" stop-opacity=".20"/><stop offset="1" stop-color="#f79c91" stop-opacity="0"/></radialGradient>
+    <radialGradient id="nose"><stop offset="0" stop-color="#f49488" stop-opacity=".10"/><stop offset=".60" stop-color="#f5988c" stop-opacity=".06"/><stop offset="1" stop-color="#f79c91" stop-opacity="0"/></radialGradient>
+  </defs>
+  <ellipse cx="195" cy="36" rx="189" ry="35" fill="url(#band)"/>
+  <ellipse cx="76" cy="45" rx="77" ry="39" fill="url(#cheek)"/><ellipse cx="314" cy="45" rx="77" ry="39" fill="url(#cheek)"/>
+  <ellipse cx="195" cy="42" rx="43" ry="33" fill="url(#nose)"/>
+</svg>

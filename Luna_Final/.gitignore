@@ -1,0 +1,4 @@
+.godot/
+logs/
+preview/raw_*/
+*.tmp

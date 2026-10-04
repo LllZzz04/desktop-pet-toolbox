@@ -1,0 +1,111 @@
+{
+	"cases": [
+		{
+			"blink_closed_and_reopened": true,
+			"chain_error_px": 0.000125827195006423,
+			"foot_drift_px": 0.0,
+			"idle_phase": 0.0,
+			"maximum_sleeve_length_ratio": 1.09325398356308,
+			"pelvis_drop_px": 45.0,
+			"target": [
+				610.0,
+				1520.0
+			]
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"chain_error_px": 0.000172633488546126,
+			"foot_drift_px": 0.0,
+			"idle_phase": 0.0,
+			"maximum_sleeve_length_ratio": 1.09325391212057,
+			"pelvis_drop_px": 45.0,
+			"target": [
+				930.0,
+				1900.0
+			]
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"chain_error_px": 0.000172633488546126,
+			"foot_drift_px": 0.0,
+			"idle_phase": 1.6,
+			"maximum_sleeve_length_ratio": 1.09325398356308,
+			"pelvis_drop_px": 45.0,
+			"target": [
+				610.0,
+				1520.0
+			]
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"chain_error_px": 0.00013647876039613,
+			"foot_drift_px": 0.0,
+			"idle_phase": 1.6,
+			"maximum_sleeve_length_ratio": 1.09325384067805,
+			"pelvis_drop_px": 45.0,
+			"target": [
+				930.0,
+				1900.0
+			]
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"chain_error_px": 0.000172633488546126,
+			"foot_drift_px": 0.0,
+			"idle_phase": 3.2,
+			"maximum_sleeve_length_ratio": 1.09325405500559,
+			"pelvis_drop_px": 45.0,
+			"target": [
+				610.0,
+				1520.0
+			]
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"chain_error_px": 0.000125827195006423,
+			"foot_drift_px": 0.0,
+			"idle_phase": 3.2,
+			"maximum_sleeve_length_ratio": 1.09325398356308,
+			"pelvis_drop_px": 45.0,
+			"target": [
+				930.0,
+				1900.0
+			]
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"chain_error_px": 0.00013647876039613,
+			"foot_drift_px": 0.0,
+			"idle_phase": 4.8,
+			"maximum_sleeve_length_ratio": 1.0932541264481,
+			"pelvis_drop_px": 45.0,
+			"target": [
+				610.0,
+				1520.0
+			]
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"chain_error_px": 0.0001220703125,
+			"foot_drift_px": 0.0,
+			"idle_phase": 4.8,
+			"maximum_sleeve_length_ratio": 1.09325398356308,
+			"pelvis_drop_px": 45.0,
+			"target": [
+				930.0,
+				1900.0
+			]
+		}
+	],
+	"failures": [],
+	"higher_priority_takeovers": {
+		"drag": true,
+		"success": true,
+		"working": true
+	},
+	"leg_max_area_ratio": 1.01943067185422,
+	"leg_mesh_flips": 0,
+	"leg_min_area_ratio": 0.749615999645518,
+	"pass": true,
+	"shoe_rigid_error_px": 0.0
+}

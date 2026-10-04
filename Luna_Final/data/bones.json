@@ -1,0 +1,508 @@
+[
+  {
+    "name": "root",
+    "parent": null,
+    "pivot": [
+      768,
+      2170
+    ],
+    "local_position": [
+      768,
+      2170
+    ],
+    "path": "root",
+    "phase2_anchor": "root"
+  },
+  {
+    "name": "pelvis",
+    "parent": "root",
+    "pivot": [
+      768,
+      1380
+    ],
+    "local_position": [
+      0,
+      -790
+    ],
+    "path": "root/pelvis",
+    "phase2_anchor": "pelvis"
+  },
+  {
+    "name": "spine",
+    "parent": "pelvis",
+    "pivot": [
+      768,
+      1220
+    ],
+    "local_position": [
+      0,
+      -160
+    ],
+    "path": "root/pelvis/spine",
+    "phase2_anchor": "spine"
+  },
+  {
+    "name": "chest",
+    "parent": "spine",
+    "pivot": [
+      768,
+      965
+    ],
+    "local_position": [
+      0,
+      -255
+    ],
+    "path": "root/pelvis/spine/chest",
+    "phase2_anchor": "chest"
+  },
+  {
+    "name": "neck",
+    "parent": "chest",
+    "pivot": [
+      770,
+      862
+    ],
+    "local_position": [
+      2,
+      -103
+    ],
+    "path": "root/pelvis/spine/chest/neck",
+    "phase2_anchor": "neck"
+  },
+  {
+    "name": "head",
+    "parent": "neck",
+    "pivot": [
+      772,
+      842
+    ],
+    "local_position": [
+      2,
+      -20
+    ],
+    "path": "root/pelvis/spine/chest/neck/head",
+    "phase2_anchor": "head"
+  },
+  {
+    "name": "hair_side_L",
+    "parent": "head",
+    "pivot": [
+      1010,
+      500
+    ],
+    "local_position": [
+      238,
+      -342
+    ],
+    "path": "root/pelvis/spine/chest/neck/head/hair_side_L",
+    "phase2_anchor": "hair_side_L"
+  },
+  {
+    "name": "hair_side_R",
+    "parent": "head",
+    "pivot": [
+      530,
+      500
+    ],
+    "local_position": [
+      -242,
+      -342
+    ],
+    "path": "root/pelvis/spine/chest/neck/head/hair_side_R",
+    "phase2_anchor": "hair_side_R"
+  },
+  {
+    "name": "hair_tip_L",
+    "parent": "head",
+    "pivot": [
+      985,
+      750
+    ],
+    "local_position": [
+      213,
+      -92
+    ],
+    "path": "root/pelvis/spine/chest/neck/head/hair_tip_L",
+    "phase2_anchor": "hair_back_L"
+  },
+  {
+    "name": "hair_tip_R",
+    "parent": "head",
+    "pivot": [
+      550,
+      750
+    ],
+    "local_position": [
+      -222,
+      -92
+    ],
+    "path": "root/pelvis/spine/chest/neck/head/hair_tip_R",
+    "phase2_anchor": "hair_back_R"
+  },
+  {
+    "name": "ahoge_root",
+    "parent": "head",
+    "pivot": [
+      650,
+      285
+    ],
+    "local_position": [
+      -122,
+      -557
+    ],
+    "path": "root/pelvis/spine/chest/neck/head/ahoge_root",
+    "phase2_anchor": "ahoge_root"
+  },
+  {
+    "name": "ahoge_tip",
+    "parent": "ahoge_root",
+    "pivot": [
+      750,
+      150
+    ],
+    "local_position": [
+      100,
+      -135
+    ],
+    "path": "root/pelvis/spine/chest/neck/head/ahoge_root/ahoge_tip",
+    "phase2_anchor": "ahoge_tip"
+  },
+  {
+    "name": "shoulder_L",
+    "parent": "chest",
+    "pivot": [
+      930,
+      870
+    ],
+    "local_position": [
+      162,
+      -95
+    ],
+    "path": "root/pelvis/spine/chest/shoulder_L",
+    "phase2_anchor": "shoulder_L"
+  },
+  {
+    "name": "shoulder_R",
+    "parent": "chest",
+    "pivot": [
+      610,
+      870
+    ],
+    "local_position": [
+      -158,
+      -95
+    ],
+    "path": "root/pelvis/spine/chest/shoulder_R",
+    "phase2_anchor": "shoulder_R"
+  },
+  {
+    "name": "forearm_L",
+    "parent": "shoulder_L",
+    "pivot": [
+      1060,
+      1100
+    ],
+    "local_position": [
+      130,
+      230
+    ],
+    "path": "root/pelvis/spine/chest/shoulder_L/forearm_L",
+    "phase2_anchor": "derived elbow under original sleeve"
+  },
+  {
+    "name": "hand_L",
+    "parent": "forearm_L",
+    "pivot": [
+      1182,
+      1276
+    ],
+    "local_position": [
+      122,
+      176
+    ],
+    "path": "root/pelvis/spine/chest/shoulder_L/forearm_L/hand_L",
+    "phase2_anchor": "hand_L"
+  },
+  {
+    "name": "forearm_R",
+    "parent": "shoulder_R",
+    "pivot": [
+      480,
+      1100
+    ],
+    "local_position": [
+      -130,
+      230
+    ],
+    "path": "root/pelvis/spine/chest/shoulder_R/forearm_R",
+    "phase2_anchor": "derived elbow under original sleeve"
+  },
+  {
+    "name": "hand_R",
+    "parent": "forearm_R",
+    "pivot": [
+      359,
+      1276
+    ],
+    "local_position": [
+      -121,
+      176
+    ],
+    "path": "root/pelvis/spine/chest/shoulder_R/forearm_R/hand_R",
+    "phase2_anchor": "hand_R"
+  },
+  {
+    "name": "cape_root",
+    "parent": "chest",
+    "pivot": [
+      768,
+      905
+    ],
+    "local_position": [
+      0,
+      -60
+    ],
+    "path": "root/pelvis/spine/chest/cape_root",
+    "phase2_anchor": "cape_root"
+  },
+  {
+    "name": "cape_L_root",
+    "parent": "cape_root",
+    "pivot": [
+      1000,
+      1060
+    ],
+    "local_position": [
+      232,
+      155
+    ],
+    "path": "root/pelvis/spine/chest/cape_root/cape_L_root",
+    "phase2_anchor": "cape_L_root"
+  },
+  {
+    "name": "cape_L_mid",
+    "parent": "cape_L_root",
+    "pivot": [
+      1137,
+      1500
+    ],
+    "local_position": [
+      137,
+      440
+    ],
+    "path": "root/pelvis/spine/chest/cape_root/cape_L_root/cape_L_mid",
+    "phase2_anchor": "cape_L_mid"
+  },
+  {
+    "name": "cape_R_root",
+    "parent": "cape_root",
+    "pivot": [
+      535,
+      1060
+    ],
+    "local_position": [
+      -233,
+      155
+    ],
+    "path": "root/pelvis/spine/chest/cape_root/cape_R_root",
+    "phase2_anchor": "cape_R_root"
+  },
+  {
+    "name": "cape_R_mid",
+    "parent": "cape_R_root",
+    "pivot": [
+      422,
+      1500
+    ],
+    "local_position": [
+      -113,
+      440
+    ],
+    "path": "root/pelvis/spine/chest/cape_root/cape_R_root/cape_R_mid",
+    "phase2_anchor": "cape_R_mid"
+  },
+  {
+    "name": "cape_charm_L",
+    "parent": "cape_L_mid",
+    "pivot": [
+      1137,
+      1500
+    ],
+    "local_position": [
+      0,
+      0
+    ],
+    "path": "root/pelvis/spine/chest/cape_root/cape_L_root/cape_L_mid/cape_charm_L",
+    "phase2_anchor": "cape_charm_L"
+  },
+  {
+    "name": "cape_charm_R",
+    "parent": "cape_R_mid",
+    "pivot": [
+      422,
+      1500
+    ],
+    "local_position": [
+      0,
+      0
+    ],
+    "path": "root/pelvis/spine/chest/cape_root/cape_R_root/cape_R_mid/cape_charm_R",
+    "phase2_anchor": "cape_charm_R"
+  },
+  {
+    "name": "tail_charm_L",
+    "parent": "cape_L_mid",
+    "pivot": [
+      1247,
+      1830
+    ],
+    "local_position": [
+      110,
+      330
+    ],
+    "path": "root/pelvis/spine/chest/cape_root/cape_L_root/cape_L_mid/tail_charm_L",
+    "phase2_anchor": "tail_charm_L"
+  },
+  {
+    "name": "tail_charm_R",
+    "parent": "cape_R_mid",
+    "pivot": [
+      287,
+      1830
+    ],
+    "local_position": [
+      -135,
+      330
+    ],
+    "path": "root/pelvis/spine/chest/cape_root/cape_R_root/cape_R_mid/tail_charm_R",
+    "phase2_anchor": "tail_charm_R"
+  },
+  {
+    "name": "hip_L",
+    "parent": "pelvis",
+    "pivot": [
+      920,
+      1465
+    ],
+    "local_position": [
+      152,
+      85
+    ],
+    "path": "root/pelvis/hip_L",
+    "phase2_anchor": "hip_L"
+  },
+  {
+    "name": "hip_R",
+    "parent": "pelvis",
+    "pivot": [
+      640,
+      1465
+    ],
+    "local_position": [
+      -128,
+      85
+    ],
+    "path": "root/pelvis/hip_R",
+    "phase2_anchor": "hip_R"
+  },
+  {
+    "name": "skirt_root",
+    "parent": "pelvis",
+    "pivot": [
+      768,
+      1235
+    ],
+    "local_position": [
+      0,
+      -145
+    ],
+    "path": "root/pelvis/skirt_root",
+    "phase2_anchor": "skirt_root"
+  },
+  {
+    "name": "hair_accessory",
+    "parent": "head",
+    "pivot": [
+      1035,
+      410
+    ],
+    "local_position": [
+      263,
+      -432
+    ],
+    "path": "root/pelvis/spine/chest/neck/head/hair_accessory",
+    "phase2_anchor": "hair_accessory"
+  },
+  {
+    "name": "neck_accessory",
+    "parent": "chest",
+    "pivot": [
+      768,
+      885
+    ],
+    "local_position": [
+      0,
+      -80
+    ],
+    "path": "root/pelvis/spine/chest/neck_accessory",
+    "phase2_anchor": "neck_accessory"
+  },
+  {
+    "name": "foot_L",
+    "parent": "root",
+    "pivot": [
+      920,
+      2095
+    ],
+    "local_position": [
+      152,
+      -75
+    ],
+    "path": "root/foot_L",
+    "phase2_anchor": "foot_L",
+    "foot_lock": "Static root branch; complete global transform constant. No IK or runtime inverse correction."
+  },
+  {
+    "name": "foot_R",
+    "parent": "root",
+    "pivot": [
+      610,
+      2095
+    ],
+    "local_position": [
+      -158,
+      -75
+    ],
+    "path": "root/foot_R",
+    "phase2_anchor": "foot_R",
+    "foot_lock": "Static root branch; complete global transform constant. No IK or runtime inverse correction."
+  },
+  {
+    "name": "knee_L",
+    "parent": "hip_L",
+    "pivot": [
+      868,
+      1668
+    ],
+    "local_position": [
+      -52,
+      203
+    ],
+    "path": "root/pelvis/hip_L/knee_L",
+    "phase2_anchor": null
+  },
+  {
+    "name": "knee_R",
+    "parent": "hip_R",
+    "pivot": [
+      658,
+      1668
+    ],
+    "local_position": [
+      18,
+      203
+    ],
+    "path": "root/pelvis/hip_R/knee_R",
+    "phase2_anchor": null
+  }
+]

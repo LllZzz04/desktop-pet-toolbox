@@ -1,0 +1,49 @@
+{
+  "pass": true,
+  "approved_baseline": "Phase4.17",
+  "production_files_frozen": 200,
+  "changed_production_files": [],
+  "original_psd_unchanged": true,
+  "full_canvas_layers": 34,
+  "runtime_layers": 34,
+  "runtime_geometry_unchanged": true,
+  "exact_gpu_changed_pixels": {
+    "rest_pose_gpu.png": 0,
+    "normal_000_gpu.png": 0,
+    "normal_048_gpu.png": 0,
+    "normal_096_gpu.png": 0,
+    "normal_144_gpu.png": 0,
+    "normal_192_gpu.png": 0,
+    "working_panel_front_native.png": 0,
+    "angry_cover_head.png": 0,
+    "angry_cover_chest.png": 0,
+    "angry_cover_legs.png": 0,
+    "success_pose_apex.png": 0
+  },
+  "acceptance_reports": {
+    "leg_guard_crouch_acceptance": true,
+    "success_v2_acceptance": true,
+    "click_cover_acceptance": true,
+    "working_panel_order_acceptance": true,
+    "blink_compatibility_results": true,
+    "phase4A_acceptance": true,
+    "phase4B_acceptance": true,
+    "phase4C_acceptance": true,
+    "phase4D_acceptance": true,
+    "phase4E_acceptance": true,
+    "phase4F_acceptance": true
+  },
+  "stand_and_post_land_foot_drift_px": 0.0,
+  "showcase_duration": 44.4,
+  "independent_random_blink": {
+    "blinks": 1,
+    "frames": 2242,
+    "intervals": [
+      5.62786483764648,
+      2.91218709945679
+    ],
+    "seconds": 8
+  },
+  "missing_resources": [],
+  "errors": []
+}

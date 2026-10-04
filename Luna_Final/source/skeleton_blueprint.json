@@ -1,0 +1,836 @@
+{
+  "status": "design_only; static rest pose; unbound",
+  "source_sha256": "c804cab9fa0358fe90e92d98212e0bee55963cacb8653d5aa0e8e8e3258c1699",
+  "coordinate_system": "PSD canvas pixels; origin top-left; +X right; +Y down",
+  "left_right_convention": "L/R = character's own anatomical side",
+  "source_leg_name_mismatch": {
+    "7": "currently viewer-left; provisional anatomical R",
+    "6": "currently viewer-right; provisional anatomical L"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "parent": null,
+      "pivot_global_px": [
+        768,
+        2170
+      ],
+      "rest_local_translation_px": [
+        768,
+        2170
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "地面基准，Idle 中保持固定",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "pelvis",
+      "parent": "root",
+      "pivot_global_px": [
+        768,
+        1380
+      ],
+      "rest_local_translation_px": [
+        0,
+        -790
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "骨盆与站姿基准",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "spine",
+      "parent": "pelvis",
+      "pivot_global_px": [
+        768,
+        1220
+      ],
+      "rest_local_translation_px": [
+        0,
+        -160
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "腰部，呼吸形变下端",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "chest",
+      "parent": "spine",
+      "pivot_global_px": [
+        768,
+        965
+      ],
+      "rest_local_translation_px": [
+        0,
+        -255
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "胸部，呼吸形变上端",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "neck",
+      "parent": "chest",
+      "pivot_global_px": [
+        770,
+        862
+      ],
+      "rest_local_translation_px": [
+        2,
+        -103
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "颈部连接",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "head",
+      "parent": "neck",
+      "pivot_global_px": [
+        772,
+        842
+      ],
+      "rest_local_translation_px": [
+        2,
+        -20
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "头部旋转枢轴",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "shoulder_L",
+      "parent": "chest",
+      "pivot_global_px": [
+        930,
+        870
+      ],
+      "rest_local_translation_px": [
+        162,
+        -95
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "角色左肩，画面右",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "elbow_L",
+      "parent": "shoulder_L",
+      "pivot_global_px": [
+        1070,
+        1120
+      ],
+      "rest_local_translation_px": [
+        140,
+        250
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "衣袖内推定肘点，本期不弯曲",
+      "optional_for_idle": true,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hand_L",
+      "parent": "elbow_L",
+      "pivot_global_px": [
+        1182,
+        1276
+      ],
+      "rest_local_translation_px": [
+        112,
+        156
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "角色左腕与手",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "shoulder_R",
+      "parent": "chest",
+      "pivot_global_px": [
+        610,
+        870
+      ],
+      "rest_local_translation_px": [
+        -158,
+        -95
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "角色右肩，画面左",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "elbow_R",
+      "parent": "shoulder_R",
+      "pivot_global_px": [
+        480,
+        1120
+      ],
+      "rest_local_translation_px": [
+        -130,
+        250
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "衣袖内推定肘点，本期不弯曲",
+      "optional_for_idle": true,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hand_R",
+      "parent": "elbow_R",
+      "pivot_global_px": [
+        359,
+        1276
+      ],
+      "rest_local_translation_px": [
+        -121,
+        156
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "角色右腕与手",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hip_L",
+      "parent": "pelvis",
+      "pivot_global_px": [
+        920,
+        1465
+      ],
+      "rest_local_translation_px": [
+        152,
+        85
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "角色左髋，当前源图层 ID 6",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "knee_L",
+      "parent": "hip_L",
+      "pivot_global_px": [
+        925,
+        1760
+      ],
+      "rest_local_translation_px": [
+        5,
+        295
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "推定膝点，本期不弯曲",
+      "optional_for_idle": true,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "ankle_L",
+      "parent": "knee_L",
+      "pivot_global_px": [
+        920,
+        1975
+      ],
+      "rest_local_translation_px": [
+        -5,
+        215
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "踝部支点，本期固定",
+      "optional_for_idle": true,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "foot_L",
+      "parent": "ankle_L",
+      "pivot_global_px": [
+        920,
+        2095
+      ],
+      "rest_local_translation_px": [
+        0,
+        120
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "角色左脚接地参考",
+      "optional_for_idle": true,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hip_R",
+      "parent": "pelvis",
+      "pivot_global_px": [
+        640,
+        1465
+      ],
+      "rest_local_translation_px": [
+        -128,
+        85
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "角色右髋，当前源图层 ID 7",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "knee_R",
+      "parent": "hip_R",
+      "pivot_global_px": [
+        618,
+        1760
+      ],
+      "rest_local_translation_px": [
+        -22,
+        295
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "推定膝点，本期不弯曲",
+      "optional_for_idle": true,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "ankle_R",
+      "parent": "knee_R",
+      "pivot_global_px": [
+        610,
+        1975
+      ],
+      "rest_local_translation_px": [
+        -8,
+        215
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "踝部支点，本期固定",
+      "optional_for_idle": true,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "foot_R",
+      "parent": "ankle_R",
+      "pivot_global_px": [
+        610,
+        2095
+      ],
+      "rest_local_translation_px": [
+        0,
+        120
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "角色右脚接地参考",
+      "optional_for_idle": true,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "skirt_root",
+      "parent": "pelvis",
+      "pivot_global_px": [
+        768,
+        1235
+      ],
+      "rest_local_translation_px": [
+        0,
+        -145
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "裙摆腰部固定区",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "skirt_L",
+      "parent": "skirt_root",
+      "pivot_global_px": [
+        950,
+        1340
+      ],
+      "rest_local_translation_px": [
+        182,
+        105
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "裙摆左侧局部形变预留",
+      "optional_for_idle": true,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "skirt_R",
+      "parent": "skirt_root",
+      "pivot_global_px": [
+        585,
+        1340
+      ],
+      "rest_local_translation_px": [
+        -183,
+        105
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "裙摆右侧局部形变预留",
+      "optional_for_idle": true,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "ahoge_root",
+      "parent": "head",
+      "pivot_global_px": [
+        650,
+        285
+      ],
+      "rest_local_translation_px": [
+        -122,
+        -557
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "呆毛发根固定区",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "ahoge_mid",
+      "parent": "ahoge_root",
+      "pivot_global_px": [
+        620,
+        205
+      ],
+      "rest_local_translation_px": [
+        -30,
+        -80
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "呆毛弧线中段",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "ahoge_tip",
+      "parent": "ahoge_mid",
+      "pivot_global_px": [
+        750,
+        150
+      ],
+      "rest_local_translation_px": [
+        130,
+        -55
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "呆毛末段；末端参考 872,235",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_front_root",
+      "parent": "head",
+      "pivot_global_px": [
+        755,
+        300
+      ],
+      "rest_local_translation_px": [
+        -17,
+        -542
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "前发冠部固定区",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_bangs",
+      "parent": "hair_front_root",
+      "pivot_global_px": [
+        755,
+        400
+      ],
+      "rest_local_translation_px": [
+        0,
+        100
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "刘海延迟形变",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_bangs_tip",
+      "parent": "hair_bangs",
+      "pivot_global_px": [
+        735,
+        650
+      ],
+      "rest_local_translation_px": [
+        -20,
+        250
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "刘海末端局部形变",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_side_L",
+      "parent": "hair_front_root",
+      "pivot_global_px": [
+        1010,
+        500
+      ],
+      "rest_local_translation_px": [
+        255,
+        200
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "左侧发束根部，画面右",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_side_L_tip",
+      "parent": "hair_side_L",
+      "pivot_global_px": [
+        1050,
+        810
+      ],
+      "rest_local_translation_px": [
+        40,
+        310
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "左侧发束末端",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_side_R",
+      "parent": "hair_front_root",
+      "pivot_global_px": [
+        530,
+        500
+      ],
+      "rest_local_translation_px": [
+        -225,
+        200
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "右侧发束根部，画面左",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_side_R_tip",
+      "parent": "hair_side_R",
+      "pivot_global_px": [
+        455,
+        835
+      ],
+      "rest_local_translation_px": [
+        -75,
+        335
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "右侧发束末端",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_back_root",
+      "parent": "head",
+      "pivot_global_px": [
+        755,
+        320
+      ],
+      "rest_local_translation_px": [
+        -17,
+        -522
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "后发根部固定区",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_back_L",
+      "parent": "hair_back_root",
+      "pivot_global_px": [
+        970,
+        620
+      ],
+      "rest_local_translation_px": [
+        215,
+        300
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "后发左卷尾根部",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_back_L_tip",
+      "parent": "hair_back_L",
+      "pivot_global_px": [
+        1030,
+        880
+      ],
+      "rest_local_translation_px": [
+        60,
+        260
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "后发左卷尾末端",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_back_R",
+      "parent": "hair_back_root",
+      "pivot_global_px": [
+        540,
+        620
+      ],
+      "rest_local_translation_px": [
+        -215,
+        300
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "后发右卷尾根部",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_back_R_tip",
+      "parent": "hair_back_R",
+      "pivot_global_px": [
+        470,
+        890
+      ],
+      "rest_local_translation_px": [
+        -70,
+        270
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "后发右卷尾末端",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "hair_accessory",
+      "parent": "head",
+      "pivot_global_px": [
+        1035,
+        410
+      ],
+      "rest_local_translation_px": [
+        263,
+        -432
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "月牙与蝴蝶结固定支点",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "neck_accessory",
+      "parent": "chest",
+      "pivot_global_px": [
+        768,
+        885
+      ],
+      "rest_local_translation_px": [
+        0,
+        -80
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "领结与宝石固定支点",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "cape_root",
+      "parent": "chest",
+      "pivot_global_px": [
+        768,
+        905
+      ],
+      "rest_local_translation_px": [
+        0,
+        -60
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "披风领部跟随胸部",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "cape_L_root",
+      "parent": "cape_root",
+      "pivot_global_px": [
+        1000,
+        1060
+      ],
+      "rest_local_translation_px": [
+        232,
+        155
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "披风左侧固定区",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "cape_L_mid",
+      "parent": "cape_L_root",
+      "pivot_global_px": [
+        1137,
+        1500
+      ],
+      "rest_local_translation_px": [
+        137,
+        440
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "披风左侧中段",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "cape_L_tip",
+      "parent": "cape_L_mid",
+      "pivot_global_px": [
+        1250,
+        1830
+      ],
+      "rest_local_translation_px": [
+        113,
+        330
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "披风左侧下段；末端参考 1320,2120",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "cape_charm_L",
+      "parent": "cape_L_mid",
+      "pivot_global_px": [
+        1137,
+        1500
+      ],
+      "rest_local_translation_px": [
+        0,
+        0
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "左披风吊坠链顶",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "tail_charm_L",
+      "parent": "cape_L_tip",
+      "pivot_global_px": [
+        1247,
+        1830
+      ],
+      "rest_local_translation_px": [
+        -3,
+        0
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "左尾摆吊坠链顶",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "cape_R_root",
+      "parent": "cape_root",
+      "pivot_global_px": [
+        535,
+        1060
+      ],
+      "rest_local_translation_px": [
+        -233,
+        155
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "披风右侧固定区",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "cape_R_mid",
+      "parent": "cape_R_root",
+      "pivot_global_px": [
+        422,
+        1500
+      ],
+      "rest_local_translation_px": [
+        -113,
+        440
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "披风右侧中段",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "cape_R_tip",
+      "parent": "cape_R_mid",
+      "pivot_global_px": [
+        285,
+        1830
+      ],
+      "rest_local_translation_px": [
+        -137,
+        330
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "披风右侧下段；末端参考 210,2120",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "cape_charm_R",
+      "parent": "cape_R_mid",
+      "pivot_global_px": [
+        422,
+        1500
+      ],
+      "rest_local_translation_px": [
+        0,
+        0
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "右披风吊坠链顶",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    },
+    {
+      "name": "tail_charm_R",
+      "parent": "cape_R_tip",
+      "pivot_global_px": [
+        287,
+        1830
+      ],
+      "rest_local_translation_px": [
+        2,
+        0
+      ],
+      "rest_rotation_radians": 0,
+      "purpose": "右尾摆吊坠链顶",
+      "optional_for_idle": false,
+      "pivot_status": "estimated; refine during mesh/rig setup"
+    }
+  ],
+  "constraints": [
+    "Keep root, pelvis and feet stable for breathing.",
+    "Anchor hair roots, cape collar, sleeve seams and skirt waist.",
+    "Use meshes/deformers for flexible parts; rigid sprite parenting alone cannot bend hair or cape.",
+    "Estimated pivots and hidden overlap must be reviewed before setting motion limits."
+  ],
+  "future_idle_target_seconds": 3,
+  "animation_tracks": []
+}

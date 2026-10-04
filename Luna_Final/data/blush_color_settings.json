@@ -1,0 +1,22 @@
+{
+  "baseline": "Luna_Character_Phase4_12",
+  "primary_rgb": [
+    244,
+    148,
+    136
+  ],
+  "primary_hex": "#F49488",
+  "production_change": "assets/expressions/blush.svg: stop-color attributes only",
+  "geometry_changed": false,
+  "opacity_changed": false,
+  "motion_changed": false,
+  "color_replacements": {
+    "#df7e70": "#f49488",
+    "#e89484": "#f5978b",
+    "#f0b4a3": "#f69b8f",
+    "#f5c8b6": "#f79c91",
+    "#e58d7c": "#f49488",
+    "#ecaa97": "#f5988c"
+  },
+  "protected_files": 106
+}

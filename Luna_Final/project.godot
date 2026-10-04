@@ -1,0 +1,18 @@
+config_version=5
+[application]
+config/name="Luna · Final 1.0"
+run/main_scene="res://LunaFinalTest.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+[display]
+window/size/viewport_width=960
+window/size/viewport_height=800
+window/size/window_width_override=960
+window/size/window_height_override=800
+window/stretch/mode="canvas_items"
+[rendering]
+shader_compiler/shader_cache/enabled=false
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.10,0.105,0.13,1)
+[debug]
+file_logging/enable_file_logging=false

@@ -1,0 +1,30 @@
+[gd_resource type="AnimationLibrary" load_steps=13 format=3]
+
+[ext_resource type="Animation" path="res://animations/idle/idle_look_around.tres" id="1"]
+[ext_resource type="Animation" path="res://animations/idle/idle_yawn.tres" id="2"]
+[ext_resource type="Animation" path="res://animations/interaction/click_question.tres" id="3"]
+[ext_resource type="Animation" path="res://animations/interaction/click_annoyed.tres" id="4"]
+[ext_resource type="Animation" path="res://animations/interaction/click_angry.tres" id="5"]
+[ext_resource type="Animation" path="res://animations/interaction/drag_start.tres" id="6"]
+[ext_resource type="Animation" path="res://animations/interaction/drag_hold.tres" id="7"]
+[ext_resource type="Animation" path="res://animations/interaction/land.tres" id="8"]
+[ext_resource type="Animation" path="res://animations/working/working_loop.tres" id="9"]
+[ext_resource type="Animation" path="res://animations/working/working_exit.tres" id="10"]
+[ext_resource type="Animation" path="res://animations/feedback/feedback_success.tres" id="11"]
+[ext_resource type="Animation" path="res://animations/feedback/feedback_error.tres" id="12"]
+
+[resource]
+_data = {
+&"idle_look_around": ExtResource("1"),
+&"idle_yawn": ExtResource("2"),
+&"click_question": ExtResource("3"),
+&"click_annoyed": ExtResource("4"),
+&"click_angry": ExtResource("5"),
+&"drag_start": ExtResource("6"),
+&"drag_hold": ExtResource("7"),
+&"land": ExtResource("8"),
+&"working_loop": ExtResource("9"),
+&"working_exit": ExtResource("10"),
+&"feedback_success": ExtResource("11"),
+&"feedback_error": ExtResource("12")
+}

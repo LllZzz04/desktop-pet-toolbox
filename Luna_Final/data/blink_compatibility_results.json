@@ -1,0 +1,60 @@
+{
+	"cases": {
+		"angry": {
+			"closed_exclusively": true,
+			"pass": true,
+			"reopened_or_forced_closed_correctly": true
+		},
+		"annoyed": {
+			"closed_exclusively": true,
+			"pass": true,
+			"reopened_or_forced_closed_correctly": true
+		},
+		"attention": {
+			"closed_exclusively": true,
+			"pass": true,
+			"reopened_or_forced_closed_correctly": true
+		},
+		"drag": {
+			"closed_exclusively": true,
+			"pass": true,
+			"reopened_or_forced_closed_correctly": true
+		},
+		"error": {
+			"closed_exclusively": true,
+			"pass": true,
+			"reopened_or_forced_closed_correctly": true
+		},
+		"idle": {
+			"closed_exclusively": true,
+			"pass": true,
+			"reopened_or_forced_closed_correctly": true
+		},
+		"look": {
+			"closed_exclusively": true,
+			"pass": true,
+			"reopened_or_forced_closed_correctly": true
+		},
+		"single": {
+			"closed_exclusively": true,
+			"pass": true,
+			"reopened_or_forced_closed_correctly": true
+		},
+		"success": {
+			"closed_exclusively": true,
+			"pass": true,
+			"reopened_or_forced_closed_correctly": true
+		},
+		"working": {
+			"closed_exclusively": true,
+			"pass": true,
+			"reopened_or_forced_closed_correctly": true
+		},
+		"yawn": {
+			"closed_exclusively": true,
+			"pass": true,
+			"reopened_or_forced_closed_correctly": true
+		}
+	},
+	"pass": true
+}

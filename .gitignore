@@ -1,0 +1,29 @@
+.venv/
+.uv-cache/
+__pycache__/
+*.pyc
+.test-data/
+.qa/
+dist/
+build/
+*.egg-info/
+
+# Local credentials and user-generated data
+.env
+.env.*
+!.env.example
+*.log
+config.json
+notes.json
+chat.json
+chat_key.json
+calculations.json
+instance.lock
+pin_workspace/
+
+# Godot import/editor caches and bundled third-party executables
+.godot/
+Luna_Final/tools/godot/*.exe
+Luna_Final/tools/godot/editor_data/
+Luna_Final/tools/godot/_sc_
+*.tmp

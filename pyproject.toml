@@ -1,0 +1,16 @@
+[project]
+name = "desktop-pet-toolbox"
+version = "0.4.0"
+description = "A lightweight Windows desktop pet with local tools and API chat"
+requires-python = ">=3.10,<3.13"
+dependencies = ["PySide6>=6.8,<7", "rapidocr-onnxruntime==1.4.4"]
+
+[project.scripts]
+desktop-pet = "app.main:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]

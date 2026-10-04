@@ -1,0 +1,36 @@
+{
+  "texture": "res://assets/working/working_hand_pen_R_v2.png",
+  "source_size": [
+    1436,
+    1095
+  ],
+  "wrist_pixel": [
+    273,
+    909
+  ],
+  "grip_pixel": [
+    1038,
+    655
+  ],
+  "tip_pixel": [
+    1203,
+    865
+  ],
+  "cap_pixel": [
+    568,
+    85
+  ],
+  "pixel_scale": 0.15,
+  "neutral_angle_degrees": 0,
+  "maximum_wrist_adjustment_degrees": 1.0,
+  "rear_cut_x_pixel": 0,
+  "rear_cut_y_pixel": 1095,
+  "reference": "reference/writing_grip_close_reference.png",
+  "authored_pose": "wrist lower-left, folded fingers and small visible back of hand, thin pen upper-left to lower-right",
+  "motion": "rigid authored hand-and-pen sprite; existing short writing path and pause cadence; no pinching old open-hand mesh",
+  "surface_anchor": [
+    -75,
+    -70
+  ],
+  "draw_order": "all working hands and embedded pen z39, sleeves z35 behind board z40; no handwriting ink"
+}

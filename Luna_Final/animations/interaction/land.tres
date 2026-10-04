@@ -1,0 +1,137 @@
+[gd_resource type="Animation" format=3]
+
+[resource]
+resource_name = "land"
+length = 0.85
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Motion:pelvis_y")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0, 0),
+"points": PackedFloat32Array(0, -0.116666667, 0, 0.116666667, 0, 0, -0.116666667, 0, 0.0466666667, 0, 6, -0.0466666667, 0, 0.07, 0, 1.5, -0.07, 0, 0.05, 0, 0, -0.05, 0, 0.05, 0),
+"times": PackedFloat32Array(0, 0.35, 0.49, 0.7, 0.85)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Motion:head_y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(0, -0.133333333, 0, 0.133333333, 0, 0, -0.133333333, 0, 0.0533333333, 0, 2, -0.0533333333, 0, 0.0966666667, 0, 0, -0.0966666667, 0, 0.0966666667, 0),
+"times": PackedFloat32Array(0, 0.4, 0.56, 0.85)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Motion:knee_L")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(0, -0.116666667, 0, 0.116666667, 0, 0, -0.116666667, 0, 0.0466666667, 0, -0.55, -0.0466666667, 0, 0.12, 0, 0, -0.12, 0, 0.12, 0),
+"times": PackedFloat32Array(0, 0.35, 0.49, 0.85)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Motion:knee_R")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(0, -0.116666667, 0, 0.116666667, 0, 0, -0.116666667, 0, 0.0466666667, 0, 0.55, -0.0466666667, 0, 0.12, 0, 0, -0.12, 0, 0.12, 0),
+"times": PackedFloat32Array(0, 0.35, 0.49, 0.85)
+}
+tracks/4/type = "bezier"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Motion:hair_tip_L")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(0, -0.153333333, 0, 0.153333333, 0, 0.4, -0.153333333, 0, 0.0566666667, 0, -0.2, -0.0566666667, 0, 0.0733333333, 0, 0, -0.0733333333, 0, 0.0733333333, 0),
+"times": PackedFloat32Array(0, 0.46, 0.63, 0.85)
+}
+tracks/5/type = "bezier"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Motion:hair_tip_R")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(0, -0.153333333, 0, 0.153333333, 0, -0.4, -0.153333333, 0, 0.0566666667, 0, 0.2, -0.0566666667, 0, 0.0733333333, 0, 0, -0.0733333333, 0, 0.0733333333, 0),
+"times": PackedFloat32Array(0, 0.46, 0.63, 0.85)
+}
+tracks/6/type = "bezier"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Motion:cape_tail_L")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(0, -0.176666667, 0, 0.176666667, 0, 0.45, -0.176666667, 0, 0.106666667, 0, 0, -0.106666667, 0, 0.106666667, 0),
+"times": PackedFloat32Array(0, 0.53, 0.85)
+}
+tracks/7/type = "bezier"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Motion:cape_tail_R")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(0, -0.176666667, 0, 0.176666667, 0, -0.45, -0.176666667, 0, 0.106666667, 0, 0, -0.106666667, 0, 0.106666667, 0),
+"times": PackedFloat32Array(0, 0.53, 0.85)
+}
+tracks/8/type = "bezier"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Motion:forearm_L")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(0, -0.16, 0, 0.16, 0, -8, -0.16, 0, 0.0833333333, 0, -8, -0.0833333333, 0, 0.04, 0, 0, -0.04, 0, 0.04, 0),
+"times": PackedFloat32Array(0, 0.48, 0.73, 0.85)
+}
+tracks/9/type = "bezier"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Motion:forearm_R")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(0, -0.16, 0, 0.16, 0, 7, -0.16, 0, 0.0833333333, 0, 7, -0.0833333333, 0, 0.04, 0, 0, -0.04, 0, 0.04, 0),
+"times": PackedFloat32Array(0, 0.48, 0.73, 0.85)
+}
+tracks/10/type = "bezier"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Motion:hand_L")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(0, -0.16, 0, 0.16, 0, -4, -0.16, 0, 0.0833333333, 0, -4, -0.0833333333, 0, 0.04, 0, 0, -0.04, 0, 0.04, 0),
+"times": PackedFloat32Array(0, 0.48, 0.73, 0.85)
+}
+tracks/11/type = "bezier"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Motion:hand_R")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(0, -0.16, 0, 0.16, 0, 4, -0.16, 0, 0.0833333333, 0, 4, -0.0833333333, 0, 0.04, 0, 0, -0.04, 0, 0.04, 0),
+"times": PackedFloat32Array(0, 0.48, 0.73, 0.85)
+}

@@ -1,0 +1,49 @@
+[gd_scene load_steps=16 format=3]
+[ext_resource type="PackedScene" path="res://LunaRig.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/luna_pet.gd" id="2"]
+[ext_resource type="Script" path="res://controllers/pose_channels.gd" id="3"]
+[ext_resource type="Script" path="res://controllers/state_controller.gd" id="4"]
+[ext_resource type="Script" path="res://controllers/motion_controller.gd" id="5"]
+[ext_resource type="Script" path="res://controllers/pose_composer.gd" id="6"]
+[ext_resource type="Script" path="res://controllers/expression_controller.gd" id="7"]
+[ext_resource type="Script" path="res://controllers/foot_lock_controller.gd" id="8"]
+[ext_resource type="Script" path="res://controllers/interaction_controller.gd" id="9"]
+[ext_resource type="Script" path="res://effects/effect_layer.gd" id="10"]
+[ext_resource type="Script" path="res://controllers/drag_controller.gd" id="11"]
+[ext_resource type="Script" path="res://controllers/debug_layer.gd" id="12"]
+[ext_resource type="AnimationLibrary" path="res://animations/phase4_library.tres" id="13"]
+[ext_resource type="Script" path="res://controllers/writing_controller.gd" id="14"]
+[ext_resource type="Script" path="res://controllers/click_cover_controller.gd" id="15"]
+[node name="LunaPet" type="Node2D"]
+script=ExtResource("2")
+texture_filter=2
+[node name="Rig" parent="." instance=ExtResource("1")]
+autoplay_enabled=false
+[node name="Motion" type="Node" parent="."]
+script=ExtResource("3")
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries={&"":ExtResource("13")}
+[node name="MotionController" type="Node" parent="."]
+script=ExtResource("5")
+[node name="ExpressionController" type="Node" parent="."]
+script=ExtResource("7")
+[node name="PoseComposer" type="Node" parent="."]
+script=ExtResource("6")
+[node name="FootLockController" type="Node" parent="."]
+script=ExtResource("8")
+[node name="StateController" type="Node" parent="."]
+script=ExtResource("4")
+[node name="DebugLayer" type="Node2D" parent="."]
+script=ExtResource("12")
+z_index=80
+[node name="InteractionController" type="Node" parent="."]
+script=ExtResource("9")
+[node name="EffectLayer" type="Node2D" parent="."]
+script=ExtResource("10")
+[node name="DragController" type="Node" parent="."]
+script=ExtResource("11")
+[node name="WritingController" type="Node2D" parent="."]
+script=ExtResource("14")
+
+[node name="ClickCoverController" type="Node2D" parent="."]
+script=ExtResource("15")

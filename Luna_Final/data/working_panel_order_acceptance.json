@@ -1,0 +1,39 @@
+{
+	"failures": [],
+	"metrics": {
+		"accepted_pose_maximum_difference": 0.0,
+		"all_tips_inside": true,
+		"arm_handover_max_step_degrees": {
+			"drag": 5.69309234619141,
+			"error": 6.64646148681641,
+			"success": 7.04518890380859
+		},
+		"chain_connection_error_px": 0.000251654390012845,
+		"complete_working_loop_maximum_transform_difference": 0.0,
+		"exit_jump_degrees": 0.0,
+		"handwriting_disabled": true,
+		"left_support_travel_panel_px": 0.000821144029032439,
+		"maximum_elbow_degrees": 0.0,
+		"maximum_stroke_points": 0,
+		"minimum_authored_grip_transform_determinant": 0.0224999915808439,
+		"minimum_panel_triangle_ratio": 0.553614495671127,
+		"minimum_support_hand_triangle_ratio": 0.642399399247935,
+		"minimum_working_projection_area_ratio": 0.014514833688736,
+		"normal_world_error_px": 0.000172633488546126,
+		"panel_top_bottom_ratio": 1.11496281424557,
+		"pen_contact_frames": 451,
+		"pen_lift_frames": 288,
+		"pen_travel_px": 19.9857406616211,
+		"surface_roundtrip_error_px": 0.000000175371710042782,
+		"tip_max": [
+			-64.2748794555664,
+			-63.9998931884766
+		],
+		"tip_min": [
+			-82.7999649047852,
+			-71.4999618530273
+		],
+		"working_foot_drift_px": 0.0
+	},
+	"pass": true
+}

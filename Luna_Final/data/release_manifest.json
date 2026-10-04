@@ -1,0 +1,26 @@
+{
+  "name": "Luna Final",
+  "version": "1.0.0",
+  "date": "2026-10-03",
+  "approved_baseline": "Luna_Character_Phase4_17",
+  "main_scene": "LunaFinalTest.tscn",
+  "reusable_pet_scene": "LunaPet.tscn",
+  "engine": "Godot 4.7.2 stable Windows x86_64",
+  "canvas_size": [
+    1536,
+    2304
+  ],
+  "full_canvas_layer_count": 34,
+  "runtime_layer_count": 34,
+  "animation_design_changes": [],
+  "character_image_changes": [],
+  "packaging_changes": [
+    "Unified Chinese preview entry",
+    "Portable launcher and bundled engine",
+    "Complete original PSD and 34 full-canvas materials",
+    "Curated previews and documentation",
+    "Updated provenance paths; current regression suite and frozen hashes"
+  ],
+  "validation_status": "pass",
+  "validation_report": "data/final_validation.json"
+}

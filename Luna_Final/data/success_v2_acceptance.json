@@ -1,0 +1,92 @@
+{
+	"cases": [
+		{
+			"blink_closed_and_reopened": true,
+			"foot_x_drift_px": 0.0,
+			"grounded_foot_drift_px": 0.0,
+			"idle_phase": 0.0,
+			"lift_px": 22.0,
+			"maximum_hand_step_degrees": 3.37345775182598,
+			"origin": "idle",
+			"shoulder_peak_degrees": 9.0
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"foot_x_drift_px": 0.0,
+			"grounded_foot_drift_px": 0.0,
+			"idle_phase": 1.6,
+			"lift_px": 22.0,
+			"maximum_hand_step_degrees": 3.40622046172724,
+			"origin": "idle",
+			"shoulder_peak_degrees": 9.0
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"foot_x_drift_px": 0.0,
+			"grounded_foot_drift_px": 0.0,
+			"idle_phase": 3.2,
+			"lift_px": 22.0,
+			"maximum_hand_step_degrees": 3.42933211433127,
+			"origin": "idle",
+			"shoulder_peak_degrees": 9.0
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"foot_x_drift_px": 0.0,
+			"grounded_foot_drift_px": 0.0,
+			"idle_phase": 4.8,
+			"lift_px": 22.0,
+			"maximum_hand_step_degrees": 3.40421580120584,
+			"origin": "idle",
+			"shoulder_peak_degrees": 9.0
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"foot_x_drift_px": 0.0,
+			"grounded_foot_drift_px": 0.0,
+			"idle_phase": 0.0,
+			"lift_px": 22.0,
+			"maximum_hand_step_degrees": 9.60569801094996,
+			"origin": "working",
+			"shoulder_peak_degrees": 9.0
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"foot_x_drift_px": 0.0,
+			"grounded_foot_drift_px": 0.0,
+			"idle_phase": 1.6,
+			"lift_px": 22.0,
+			"maximum_hand_step_degrees": 9.69492589471972,
+			"origin": "working",
+			"shoulder_peak_degrees": 9.0
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"foot_x_drift_px": 0.0,
+			"grounded_foot_drift_px": 0.0,
+			"idle_phase": 3.2,
+			"lift_px": 22.0,
+			"maximum_hand_step_degrees": 9.78353393882229,
+			"origin": "working",
+			"shoulder_peak_degrees": 9.0
+		},
+		{
+			"blink_closed_and_reopened": true,
+			"foot_x_drift_px": 0.0,
+			"grounded_foot_drift_px": 0.0,
+			"idle_phase": 4.8,
+			"lift_px": 22.0,
+			"maximum_hand_step_degrees": 9.68322065802961,
+			"origin": "working",
+			"shoulder_peak_degrees": 9.0
+		}
+	],
+	"failures": [],
+	"leg_max_area_ratio": 1.04045247828707,
+	"leg_min_area_ratio": 0.923065890629297,
+	"mesh_flips": 0,
+	"mesh_max_area_ratio": 1.28771574084667,
+	"mesh_min_area_ratio": 0.684919344976271,
+	"pass": true,
+	"shoe_rigid_error_px": 0.0
+}

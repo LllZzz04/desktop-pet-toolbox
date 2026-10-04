@@ -1,0 +1,1555 @@
+{
+  "schema_version": 1,
+  "canvas_size": [
+    1536,
+    2304
+  ],
+  "coordinate_system": "Phase2 canvas pixels; top-left origin; crop_rect=[x,y,width,height]",
+  "source_phase": "../Luna_Character_Phase2",
+  "padding_px": 12,
+  "layer_count": 34,
+  "layers": [
+    {
+      "layer_name": "cape_R_tail",
+      "source_file": "../Luna_Character_Phase2/layers/Cape/cape_R_tail.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        130,
+        1382,
+        849,
+        2159
+      ],
+      "crop_rect": [
+        118,
+        1370,
+        743,
+        801
+      ],
+      "runtime_file": "runtime_layers/cape_R_tail.png",
+      "runtime_size": [
+        743,
+        801
+      ],
+      "world_origin": [
+        118,
+        1370
+      ],
+      "pivot": [
+        422,
+        1500
+      ],
+      "pivot_runtime_local": [
+        304,
+        130
+      ],
+      "draw_order": 0,
+      "parent_bone": "cape_R_mid",
+      "node_type": "Polygon2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "6b59801a04a152a24ab4b0c17409a5cb26ef4f6a0950d1b703e2b7401c732506",
+      "runtime_sha256": "d2014c091f99ac1ffa18aa9c582bc08e3b80e3972d6680dc4f0cc60431650042"
+    },
+    {
+      "layer_name": "cape_L_tail",
+      "source_file": "../Luna_Character_Phase2/layers/Cape/cape_L_tail.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        684,
+        1382,
+        1405,
+        2160
+      ],
+      "crop_rect": [
+        672,
+        1370,
+        745,
+        802
+      ],
+      "runtime_file": "runtime_layers/cape_L_tail.png",
+      "runtime_size": [
+        745,
+        802
+      ],
+      "world_origin": [
+        672,
+        1370
+      ],
+      "pivot": [
+        1137,
+        1500
+      ],
+      "pivot_runtime_local": [
+        465,
+        130
+      ],
+      "draw_order": 1,
+      "parent_bone": "cape_L_mid",
+      "node_type": "Polygon2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "bfc4b215d18119dc82798fb15dba2bc19c130e69c20e2264eb63163f5c6b0b2f",
+      "runtime_sha256": "6cda62212a5186a6c6733973473e9c08245743c72a72bf54c8b91e070742a41b"
+    },
+    {
+      "layer_name": "cape_R_upper",
+      "source_file": "../Luna_Character_Phase2/layers/Cape/cape_R_upper.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        319,
+        962,
+        896,
+        1638
+      ],
+      "crop_rect": [
+        307,
+        950,
+        601,
+        700
+      ],
+      "runtime_file": "runtime_layers/cape_R_upper.png",
+      "runtime_size": [
+        601,
+        700
+      ],
+      "world_origin": [
+        307,
+        950
+      ],
+      "pivot": [
+        535,
+        1060
+      ],
+      "pivot_runtime_local": [
+        228,
+        110
+      ],
+      "draw_order": 2,
+      "parent_bone": "cape_R_root",
+      "node_type": "Polygon2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "b09e1268c4892ab3c72ee978a4c80407885cffe25392d9848940a172651d5334",
+      "runtime_sha256": "1ad1d22568eb43052927242f17c4fb69a712c6b27c7160ab75fb67a807ea24bd"
+    },
+    {
+      "layer_name": "cape_L_upper",
+      "source_file": "../Luna_Character_Phase2/layers/Cape/cape_L_upper.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        640,
+        962,
+        1217,
+        1638
+      ],
+      "crop_rect": [
+        628,
+        950,
+        601,
+        700
+      ],
+      "runtime_file": "runtime_layers/cape_L_upper.png",
+      "runtime_size": [
+        601,
+        700
+      ],
+      "world_origin": [
+        628,
+        950
+      ],
+      "pivot": [
+        1000,
+        1060
+      ],
+      "pivot_runtime_local": [
+        372,
+        110
+      ],
+      "draw_order": 3,
+      "parent_bone": "cape_L_root",
+      "node_type": "Polygon2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "f3f73e058fa0cd28b367221255705aebf0fc72e7fbec1564ccbf72349a553390",
+      "runtime_sha256": "1754a1690f0622218c61a76c666d8c92ba99be4c049561d80c43a1e0ed4589f5"
+    },
+    {
+      "layer_name": "cape_neck",
+      "source_file": "../Luna_Character_Phase2/layers/Cape/cape_neck.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        440,
+        835,
+        1090,
+        1218
+      ],
+      "crop_rect": [
+        428,
+        823,
+        674,
+        407
+      ],
+      "runtime_file": "runtime_layers/cape_neck.png",
+      "runtime_size": [
+        674,
+        407
+      ],
+      "world_origin": [
+        428,
+        823
+      ],
+      "pivot": [
+        768,
+        905
+      ],
+      "pivot_runtime_local": [
+        340,
+        82
+      ],
+      "draw_order": 4,
+      "parent_bone": "cape_root",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "919f254a04043ef6d95ae665ff0687cb2edc5234dd4f8c0c6b69913959ad0782",
+      "runtime_sha256": "cdc4afdab9107e10722472660daa9ab701c0999ac2828da31a5b4b5b12861d30"
+    },
+    {
+      "layer_name": "tail_charm_R",
+      "source_file": "../Luna_Character_Phase2/layers/Accessory/tail_charm_R.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        250,
+        1830,
+        325,
+        2170
+      ],
+      "crop_rect": [
+        238,
+        1818,
+        99,
+        364
+      ],
+      "runtime_file": "runtime_layers/tail_charm_R.png",
+      "runtime_size": [
+        99,
+        364
+      ],
+      "world_origin": [
+        238,
+        1818
+      ],
+      "pivot": [
+        287,
+        1830
+      ],
+      "pivot_runtime_local": [
+        49,
+        12
+      ],
+      "draw_order": 5,
+      "parent_bone": "tail_charm_R",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "2e46745bfb629c5b27d9153c7e1808bc748e6de4d65557ed540076e3da0d1c63",
+      "runtime_sha256": "0955ae180ca44f88cbfaf8a17a25f4ea6c69a19bdb8ef75c52607c07ef4cf8bb"
+    },
+    {
+      "layer_name": "tail_charm_L",
+      "source_file": "../Luna_Character_Phase2/layers/Accessory/tail_charm_L.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        1211,
+        1830,
+        1285,
+        2145
+      ],
+      "crop_rect": [
+        1199,
+        1818,
+        98,
+        339
+      ],
+      "runtime_file": "runtime_layers/tail_charm_L.png",
+      "runtime_size": [
+        98,
+        339
+      ],
+      "world_origin": [
+        1199,
+        1818
+      ],
+      "pivot": [
+        1247,
+        1830
+      ],
+      "pivot_runtime_local": [
+        48,
+        12
+      ],
+      "draw_order": 6,
+      "parent_bone": "tail_charm_L",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "3f6e1ed3425245b96915fb529aa6d8eadf647bd6c65aa723cc91c4288bf52a0a",
+      "runtime_sha256": "687a60a1c1d7b9dda0b334e677b44f27d2c62b306dd1511f0849743bc26bd936"
+    },
+    {
+      "layer_name": "cape_charm_R",
+      "source_file": "../Luna_Character_Phase2/layers/Accessory/cape_charm_R.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        385,
+        1500,
+        460,
+        1785
+      ],
+      "crop_rect": [
+        373,
+        1488,
+        99,
+        309
+      ],
+      "runtime_file": "runtime_layers/cape_charm_R.png",
+      "runtime_size": [
+        99,
+        309
+      ],
+      "world_origin": [
+        373,
+        1488
+      ],
+      "pivot": [
+        422,
+        1500
+      ],
+      "pivot_runtime_local": [
+        49,
+        12
+      ],
+      "draw_order": 7,
+      "parent_bone": "cape_charm_R",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "6b79350f5ab2016b747cbc0414abbb62ee4fbe3dfbbc146f932fe649e801b6ba",
+      "runtime_sha256": "00ea5beab775c9d2af3ca0e8a7075cf534bdecfab2ca4d4a583fd3155d323d99"
+    },
+    {
+      "layer_name": "cape_charm_L",
+      "source_file": "../Luna_Character_Phase2/layers/Accessory/cape_charm_L.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        1100,
+        1500,
+        1175,
+        1785
+      ],
+      "crop_rect": [
+        1088,
+        1488,
+        99,
+        309
+      ],
+      "runtime_file": "runtime_layers/cape_charm_L.png",
+      "runtime_size": [
+        99,
+        309
+      ],
+      "world_origin": [
+        1088,
+        1488
+      ],
+      "pivot": [
+        1137,
+        1500
+      ],
+      "pivot_runtime_local": [
+        49,
+        12
+      ],
+      "draw_order": 8,
+      "parent_bone": "cape_charm_L",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "eead8f9fcdd86848b31ce341a024fb5f742f5b6eea7a728d0b99839fcd06ff11",
+      "runtime_sha256": "9df13aa06464beb5f1cabdcc08361e3ed06ddd266741636a7496cff603d98c4d"
+    },
+    {
+      "layer_name": "leg_L",
+      "source_file": "../Luna_Character_Phase2/layers/Body/leg_L.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        791,
+        1383,
+        1049,
+        2170
+      ],
+      "crop_rect": [
+        779,
+        1371,
+        282,
+        811
+      ],
+      "runtime_file": "runtime_layers/leg_L.png",
+      "runtime_size": [
+        282,
+        811
+      ],
+      "world_origin": [
+        779,
+        1371
+      ],
+      "pivot": [
+        920,
+        1465
+      ],
+      "pivot_runtime_local": [
+        141,
+        94
+      ],
+      "draw_order": 9,
+      "parent_bone": "hip_L",
+      "node_type": "Polygon2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "434e8fd7d3b52c35c30543ac1f95a21d92648d03009eb9cd9fd95ec77a477c08",
+      "runtime_sha256": "8a39a3dcd30bd931ea76053a3b2cbe509981d01aaf4b692548a098286e1da64b",
+      "mesh_influences": [
+        "hip_L",
+        "knee_L",
+        "foot_L"
+      ],
+      "foot_lock_from_world_y": 1840
+    },
+    {
+      "layer_name": "leg_R",
+      "source_file": "../Luna_Character_Phase2/layers/Body/leg_R.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        482,
+        1383,
+        739,
+        2170
+      ],
+      "crop_rect": [
+        470,
+        1371,
+        281,
+        811
+      ],
+      "runtime_file": "runtime_layers/leg_R.png",
+      "runtime_size": [
+        281,
+        811
+      ],
+      "world_origin": [
+        470,
+        1371
+      ],
+      "pivot": [
+        640,
+        1465
+      ],
+      "pivot_runtime_local": [
+        170,
+        94
+      ],
+      "draw_order": 10,
+      "parent_bone": "hip_R",
+      "node_type": "Polygon2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "b179d9daa32abed7085bae5096c9e33805726b6740c78b687e16c5ad42ca4665",
+      "runtime_sha256": "182d2b6f4e6a66abf06fcd2f55d478ab42d7ed9fb8e44f208d50bedd8cd4cc5f",
+      "mesh_influences": [
+        "hip_R",
+        "knee_R",
+        "foot_R"
+      ],
+      "foot_lock_from_world_y": 1840
+    },
+    {
+      "layer_name": "skirt",
+      "source_file": "../Luna_Character_Phase2/layers/Body/skirt.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        456,
+        1210,
+        1084,
+        1680
+      ],
+      "crop_rect": [
+        444,
+        1198,
+        652,
+        494
+      ],
+      "runtime_file": "runtime_layers/skirt.png",
+      "runtime_size": [
+        652,
+        494
+      ],
+      "world_origin": [
+        444,
+        1198
+      ],
+      "pivot": [
+        768,
+        1235
+      ],
+      "pivot_runtime_local": [
+        324,
+        37
+      ],
+      "draw_order": 11,
+      "parent_bone": "skirt_root",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "1d3b1f879c771f72a56c4cc63402ebc8ceff8faf09b3b9bb3f57cbfc343badd2",
+      "runtime_sha256": "3fc83fbcb6b42115068cb1cab8936ea3b3d488fb66d6b5fb502dbcbffaa4765e"
+    },
+    {
+      "layer_name": "torso",
+      "source_file": "../Luna_Character_Phase2/layers/Body/torso.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        588,
+        797,
+        952,
+        1280
+      ],
+      "crop_rect": [
+        576,
+        785,
+        388,
+        507
+      ],
+      "runtime_file": "runtime_layers/torso.png",
+      "runtime_size": [
+        388,
+        507
+      ],
+      "world_origin": [
+        576,
+        785
+      ],
+      "pivot": [
+        768,
+        965
+      ],
+      "pivot_runtime_local": [
+        192,
+        180
+      ],
+      "draw_order": 12,
+      "parent_bone": "chest",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "582120341dc862a5ada8e685c802ca9a3eaf79abde72f4cc1275c1adfcec9c58",
+      "runtime_sha256": "49d89ad8d3a97e67b09c0db3fa3d16fc10f1ad7f7465c2beb775756dfc61c946"
+    },
+    {
+      "layer_name": "back_hair",
+      "source_file": "../Luna_Character_Phase2/layers/Hair/back_hair.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        392,
+        251,
+        1119,
+        806
+      ],
+      "crop_rect": [
+        380,
+        239,
+        751,
+        579
+      ],
+      "runtime_file": "runtime_layers/back_hair.png",
+      "runtime_size": [
+        751,
+        579
+      ],
+      "world_origin": [
+        380,
+        239
+      ],
+      "pivot": [
+        755,
+        320
+      ],
+      "pivot_runtime_local": [
+        375,
+        81
+      ],
+      "draw_order": 13,
+      "parent_bone": "head",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "d0474c7ae1a54983acc3e7c8588075bc97dfb4599ecc9511745d6ddf0e7fa9cf",
+      "runtime_sha256": "cd1b1bb56288b655c422c4ef446a5fd6a45b432fd641ba5a858c0a4979432362"
+    },
+    {
+      "layer_name": "hair_tip_R",
+      "source_file": "../Luna_Character_Phase2/layers/Hair/hair_tip_R.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        415,
+        694,
+        824,
+        923
+      ],
+      "crop_rect": [
+        403,
+        682,
+        433,
+        253
+      ],
+      "runtime_file": "runtime_layers/hair_tip_R.png",
+      "runtime_size": [
+        433,
+        253
+      ],
+      "world_origin": [
+        403,
+        682
+      ],
+      "pivot": [
+        550,
+        750
+      ],
+      "pivot_runtime_local": [
+        147,
+        68
+      ],
+      "draw_order": 14,
+      "parent_bone": "hair_tip_R",
+      "node_type": "Polygon2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "8add128556b4e647ece2a59967ad28c978cf506cf5cc6ddd0361edc90f850736",
+      "runtime_sha256": "fa32230ceed7f140bb203d3c1342a52deac325c8a601213074d7acb84d8f24f6"
+    },
+    {
+      "layer_name": "hair_tip_L",
+      "source_file": "../Luna_Character_Phase2/layers/Hair/hair_tip_L.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        712,
+        694,
+        1071,
+        926
+      ],
+      "crop_rect": [
+        700,
+        682,
+        383,
+        256
+      ],
+      "runtime_file": "runtime_layers/hair_tip_L.png",
+      "runtime_size": [
+        383,
+        256
+      ],
+      "world_origin": [
+        700,
+        682
+      ],
+      "pivot": [
+        985,
+        750
+      ],
+      "pivot_runtime_local": [
+        285,
+        68
+      ],
+      "draw_order": 15,
+      "parent_bone": "hair_tip_L",
+      "node_type": "Polygon2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "3328cac7b1ad85bc46dbc668bb8b9e69571cb3d18d36f14ccef31fbc24470ed6",
+      "runtime_sha256": "7e1bcc9e99dedba0deb7cf93e5b3a316858ab1bc4f717a44086bed063b4a2a78"
+    },
+    {
+      "layer_name": "arm_R",
+      "source_file": "../Luna_Character_Phase2/layers/Body/arm_R.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        288,
+        829,
+        653,
+        1365
+      ],
+      "crop_rect": [
+        276,
+        817,
+        389,
+        560
+      ],
+      "runtime_file": "runtime_layers/arm_R.png",
+      "runtime_size": [
+        389,
+        560
+      ],
+      "world_origin": [
+        276,
+        817
+      ],
+      "pivot": [
+        610,
+        870
+      ],
+      "pivot_runtime_local": [
+        334,
+        53
+      ],
+      "draw_order": 16,
+      "parent_bone": "shoulder_R",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "b6f022404fc780ddfba4ca061d6d8f63a64402922bff3cfcfbabdd04ba33c7f0",
+      "runtime_sha256": "4ddba4c7dab94bb9823e949911a5b5a98fe83f169208f2ffb614cc82d6c1ff51",
+      "deform_node": "arm_R_deform",
+      "control_bones": [
+        "shoulder_R",
+        "forearm_R",
+        "hand_R"
+      ],
+      "rest_preservation": "original Sprite2D when forearm angle is zero"
+    },
+    {
+      "layer_name": "arm_L",
+      "source_file": "../Luna_Character_Phase2/layers/Body/arm_L.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        881,
+        829,
+        1246,
+        1365
+      ],
+      "crop_rect": [
+        869,
+        817,
+        389,
+        560
+      ],
+      "runtime_file": "runtime_layers/arm_L.png",
+      "runtime_size": [
+        389,
+        560
+      ],
+      "world_origin": [
+        869,
+        817
+      ],
+      "pivot": [
+        930,
+        870
+      ],
+      "pivot_runtime_local": [
+        61,
+        53
+      ],
+      "draw_order": 17,
+      "parent_bone": "shoulder_L",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "b73f7604be49cc04bd385f25884189ec3a729c8fc13177797b8e609941a2a1a5",
+      "runtime_sha256": "f00093a284d20f33015d59497020ba12c5c7f81af85a05d497cdd0142e861422",
+      "deform_node": "arm_L_deform",
+      "control_bones": [
+        "shoulder_L",
+        "forearm_L",
+        "hand_L"
+      ],
+      "rest_preservation": "original Sprite2D when forearm angle is zero"
+    },
+    {
+      "layer_name": "hand_R",
+      "source_file": "../Luna_Character_Phase2/layers/Body/hand_R.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        243,
+        1250,
+        393,
+        1425
+      ],
+      "crop_rect": [
+        231,
+        1238,
+        174,
+        199
+      ],
+      "runtime_file": "runtime_layers/hand_R.png",
+      "runtime_size": [
+        174,
+        199
+      ],
+      "world_origin": [
+        231,
+        1238
+      ],
+      "pivot": [
+        359,
+        1276
+      ],
+      "pivot_runtime_local": [
+        128,
+        38
+      ],
+      "draw_order": 18,
+      "parent_bone": "hand_R",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "66bddedd9ce0a8874b066660cc85a2b71a0418a853303ca4b76ecef319896916",
+      "runtime_sha256": "cefc50fc2feb86740fca0219276d95e613e435131c9b9967cab2a2a77d6be54c"
+    },
+    {
+      "layer_name": "hand_L",
+      "source_file": "../Luna_Character_Phase2/layers/Body/hand_L.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        1147,
+        1250,
+        1297,
+        1425
+      ],
+      "crop_rect": [
+        1135,
+        1238,
+        174,
+        199
+      ],
+      "runtime_file": "runtime_layers/hand_L.png",
+      "runtime_size": [
+        174,
+        199
+      ],
+      "world_origin": [
+        1135,
+        1238
+      ],
+      "pivot": [
+        1182,
+        1276
+      ],
+      "pivot_runtime_local": [
+        47,
+        38
+      ],
+      "draw_order": 19,
+      "parent_bone": "hand_L",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "595a63b406136ff5f18283bb3812fc80d448e1739ce746dd09f4e4192faec574",
+      "runtime_sha256": "2a4818a076bf6f93bf1bd8065e30e791ed1d8837137543cfaec65717531b06c9"
+    },
+    {
+      "layer_name": "face_base",
+      "source_file": "layers/Head/face_base.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        528,
+        385,
+        1017,
+        903
+      ],
+      "crop_rect": [
+        516,
+        373,
+        513,
+        542
+      ],
+      "runtime_file": "runtime_layers/face_base.png",
+      "runtime_size": [
+        513,
+        542
+      ],
+      "world_origin": [
+        516,
+        373
+      ],
+      "pivot": [
+        772,
+        842
+      ],
+      "pivot_runtime_local": [
+        256,
+        469
+      ],
+      "draw_order": 20,
+      "parent_bone": "head",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "191176437affce13cc20af87c154a41d3c9f4f68039cd22b6c7ac860136d7e57",
+      "runtime_sha256": "1b0bf9b1599278196985d4cd0a4fc42b78b9d37a6a9a342a244842c1e8312895",
+      "edge_bleed_px": 12,
+      "eye_variant_shared_crop": false,
+      "phase3_6_facefix": true
+    },
+    {
+      "layer_name": "mouth",
+      "source_file": "layers/Head/mouth.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        766,
+        766,
+        783,
+        772
+      ],
+      "crop_rect": [
+        754,
+        754,
+        41,
+        30
+      ],
+      "runtime_file": "runtime_layers/mouth.png",
+      "runtime_size": [
+        41,
+        30
+      ],
+      "world_origin": [
+        754,
+        754
+      ],
+      "pivot": [
+        770,
+        768
+      ],
+      "pivot_runtime_local": [
+        16,
+        14
+      ],
+      "draw_order": 21,
+      "parent_bone": "head",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "ff057b9bcb97b068cf33e77dfb261c328185be6dacf25d7a703c1bdf6b34cfaa",
+      "runtime_sha256": "09e69ace1e708d72145a6112f1a7329021c106c0bcdc7732d3acb3c03af1ee3d",
+      "edge_bleed_px": 12,
+      "eye_variant_shared_crop": false,
+      "phase3_6_facefix": true
+    },
+    {
+      "layer_name": "eye_R_open",
+      "source_file": "layers/Head/eye_R_open.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        576,
+        635,
+        730,
+        738
+      ],
+      "crop_rect": [
+        564,
+        623,
+        178,
+        127
+      ],
+      "runtime_file": "runtime_layers/eye_R_open.png",
+      "runtime_size": [
+        178,
+        127
+      ],
+      "world_origin": [
+        564,
+        623
+      ],
+      "pivot": [
+        669,
+        699
+      ],
+      "pivot_runtime_local": [
+        105,
+        76
+      ],
+      "draw_order": 22,
+      "parent_bone": "head",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "8c221610cd4bf719618f3a032257ca13cdd07c91f0affe7278f8c02c762d3e79",
+      "runtime_sha256": "3fae136593a90eae44e744a96efdd82001ee5e6859bd813d8292cd7c521c3dfc",
+      "edge_bleed_px": 12,
+      "eye_variant_shared_crop": true,
+      "phase3_6_facefix": true
+    },
+    {
+      "layer_name": "eye_R_closed",
+      "source_file": "layers/Head/eye_R_closed.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        587,
+        668,
+        720,
+        712
+      ],
+      "crop_rect": [
+        564,
+        623,
+        178,
+        127
+      ],
+      "runtime_file": "runtime_layers/eye_R_closed.png",
+      "runtime_size": [
+        178,
+        127
+      ],
+      "world_origin": [
+        564,
+        623
+      ],
+      "pivot": [
+        669,
+        699
+      ],
+      "pivot_runtime_local": [
+        105,
+        76
+      ],
+      "draw_order": 23,
+      "parent_bone": "head",
+      "node_type": "Sprite2D",
+      "default_visible": false,
+      "padding_px": 12,
+      "source_sha256": "db36c85ecee93e87cd0db377d7972d202bcc61e62ebd1fe68189b7e150096384",
+      "runtime_sha256": "71e5fc2965d44887a5c4301851863edbb14fc45ecf058bfb07d235b5edcaa8ae",
+      "edge_bleed_px": 12,
+      "eye_variant_shared_crop": true,
+      "phase3_6_facefix": true
+    },
+    {
+      "layer_name": "eye_L_open",
+      "source_file": "layers/Head/eye_L_open.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        815,
+        635,
+        975,
+        738
+      ],
+      "crop_rect": [
+        803,
+        623,
+        184,
+        127
+      ],
+      "runtime_file": "runtime_layers/eye_L_open.png",
+      "runtime_size": [
+        184,
+        127
+      ],
+      "world_origin": [
+        803,
+        623
+      ],
+      "pivot": [
+        872,
+        699
+      ],
+      "pivot_runtime_local": [
+        69,
+        76
+      ],
+      "draw_order": 24,
+      "parent_bone": "head",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "8c204815e30c8b55b7a9f5a212bfeb6010d6ecf2c4d52b79301ec82d27cdbce3",
+      "runtime_sha256": "aee1211b297f4959a5ddd9b04d39870c30a49f4c20ad80864316edd29e4afb0b",
+      "edge_bleed_px": 12,
+      "eye_variant_shared_crop": true,
+      "phase3_6_facefix": true
+    },
+    {
+      "layer_name": "eye_L_closed",
+      "source_file": "layers/Head/eye_L_closed.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        821,
+        669,
+        967,
+        712
+      ],
+      "crop_rect": [
+        803,
+        623,
+        184,
+        127
+      ],
+      "runtime_file": "runtime_layers/eye_L_closed.png",
+      "runtime_size": [
+        184,
+        127
+      ],
+      "world_origin": [
+        803,
+        623
+      ],
+      "pivot": [
+        872,
+        699
+      ],
+      "pivot_runtime_local": [
+        69,
+        76
+      ],
+      "draw_order": 25,
+      "parent_bone": "head",
+      "node_type": "Sprite2D",
+      "default_visible": false,
+      "padding_px": 12,
+      "source_sha256": "799191918b47c3e89a93c32db0f45c877c1f7307cea79a538b24b8fadafc1018",
+      "runtime_sha256": "3722a05dceeb6c2e449f7a542cd6662aed2d983177f38c223227563ec764321f",
+      "edge_bleed_px": 12,
+      "eye_variant_shared_crop": true,
+      "phase3_6_facefix": true
+    },
+    {
+      "layer_name": "side_hair_R",
+      "source_file": "../Luna_Character_Phase2/layers/Hair/side_hair_R.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        380,
+        250,
+        769,
+        858
+      ],
+      "crop_rect": [
+        368,
+        238,
+        413,
+        632
+      ],
+      "runtime_file": "runtime_layers/side_hair_R.png",
+      "runtime_size": [
+        413,
+        632
+      ],
+      "world_origin": [
+        368,
+        238
+      ],
+      "pivot": [
+        530,
+        500
+      ],
+      "pivot_runtime_local": [
+        162,
+        262
+      ],
+      "draw_order": 26,
+      "parent_bone": "hair_side_R",
+      "node_type": "Polygon2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "ef8a1f6e781b3375fa3509281e90eb380e080f199273a7347fd12e23232e0146",
+      "runtime_sha256": "374da7b5fb1315cba0e85095a0df471054487914a8f123a014f48d5b732db60d"
+    },
+    {
+      "layer_name": "side_hair_L",
+      "source_file": "../Luna_Character_Phase2/layers/Hair/side_hair_L.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        762,
+        259,
+        1126,
+        861
+      ],
+      "crop_rect": [
+        750,
+        247,
+        388,
+        626
+      ],
+      "runtime_file": "runtime_layers/side_hair_L.png",
+      "runtime_size": [
+        388,
+        626
+      ],
+      "world_origin": [
+        750,
+        247
+      ],
+      "pivot": [
+        1010,
+        500
+      ],
+      "pivot_runtime_local": [
+        260,
+        253
+      ],
+      "draw_order": 27,
+      "parent_bone": "hair_side_L",
+      "node_type": "Polygon2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "77104bbb274ddd3380807f517718a946013008a4553e79f6f956098cc18c371a",
+      "runtime_sha256": "7f2861a519c44e3792421a1743369b791cdd85dac0598d6a18ba5b477f40deb0"
+    },
+    {
+      "layer_name": "bang_R",
+      "source_file": "../Luna_Character_Phase2/layers/Hair/bang_R.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        581,
+        390,
+        713,
+        662
+      ],
+      "crop_rect": [
+        569,
+        378,
+        156,
+        296
+      ],
+      "runtime_file": "runtime_layers/bang_R.png",
+      "runtime_size": [
+        156,
+        296
+      ],
+      "world_origin": [
+        569,
+        378
+      ],
+      "pivot": [
+        685,
+        420
+      ],
+      "pivot_runtime_local": [
+        116,
+        42
+      ],
+      "draw_order": 28,
+      "parent_bone": "head",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "95af9a17e825550e99315cfd73f1f3463105250c612dc9eea1fe8309a6b1bb47",
+      "runtime_sha256": "d0aeed7608ef0bbab59c202720521eaa8d2e91074244f16bdf166e49a718b095"
+    },
+    {
+      "layer_name": "bang_L",
+      "source_file": "../Luna_Character_Phase2/layers/Hair/bang_L.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        756,
+        328,
+        1029,
+        656
+      ],
+      "crop_rect": [
+        744,
+        316,
+        297,
+        352
+      ],
+      "runtime_file": "runtime_layers/bang_L.png",
+      "runtime_size": [
+        297,
+        352
+      ],
+      "world_origin": [
+        744,
+        316
+      ],
+      "pivot": [
+        844,
+        415
+      ],
+      "pivot_runtime_local": [
+        100,
+        99
+      ],
+      "draw_order": 29,
+      "parent_bone": "head",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "80c2910544edc97542c8b6eb6b99ac97aad36e3deb66dc82e879139eaf44f4ca",
+      "runtime_sha256": "7e7395a2c93b97b1a8f950e96435320ea1b06697883214b9caf0bdb056576256"
+    },
+    {
+      "layer_name": "bang_center",
+      "source_file": "../Luna_Character_Phase2/layers/Hair/bang_center.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        583,
+        250,
+        1010,
+        836
+      ],
+      "crop_rect": [
+        571,
+        238,
+        451,
+        610
+      ],
+      "runtime_file": "runtime_layers/bang_center.png",
+      "runtime_size": [
+        451,
+        610
+      ],
+      "world_origin": [
+        571,
+        238
+      ],
+      "pivot": [
+        755,
+        400
+      ],
+      "pivot_runtime_local": [
+        184,
+        162
+      ],
+      "draw_order": 30,
+      "parent_bone": "head",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "21f9e02cfd4ca4901f02664508fe102645d38c7ceb4fd8b0046db019bb941cfc",
+      "runtime_sha256": "73fb2e12655c0f8983a1daa60bae677c91e83f28276cd5650413085806cbcf06"
+    },
+    {
+      "layer_name": "ahoge",
+      "source_file": "../Luna_Character_Phase2/layers/Hair/ahoge.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        598,
+        132,
+        880,
+        309
+      ],
+      "crop_rect": [
+        586,
+        120,
+        306,
+        201
+      ],
+      "runtime_file": "runtime_layers/ahoge.png",
+      "runtime_size": [
+        306,
+        201
+      ],
+      "world_origin": [
+        586,
+        120
+      ],
+      "pivot": [
+        650,
+        285
+      ],
+      "pivot_runtime_local": [
+        64,
+        165
+      ],
+      "draw_order": 31,
+      "parent_bone": "ahoge_root",
+      "node_type": "Polygon2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "acc853049e950281626da41a740fa75afb8044a588d252acb1543c1fc4bf4595",
+      "runtime_sha256": "2085536277f36cf083d4ecce54bba873322e5dd4ea5dda3592b099a2b8ecc67b"
+    },
+    {
+      "layer_name": "hair_accessory",
+      "source_file": "../Luna_Character_Phase2/layers/Accessory/hair_accessory.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        917,
+        304,
+        1159,
+        671
+      ],
+      "crop_rect": [
+        905,
+        292,
+        266,
+        391
+      ],
+      "runtime_file": "runtime_layers/hair_accessory.png",
+      "runtime_size": [
+        266,
+        391
+      ],
+      "world_origin": [
+        905,
+        292
+      ],
+      "pivot": [
+        1035,
+        410
+      ],
+      "pivot_runtime_local": [
+        130,
+        118
+      ],
+      "draw_order": 32,
+      "parent_bone": "hair_accessory",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "9f651f760ab0d162ef137a7980a15358306d30223272bf291848554aba704116",
+      "runtime_sha256": "979645fe21e73ebde5b770e55bab229a825552fc2d370721b5f907c95ffff5d8"
+    },
+    {
+      "layer_name": "neck_accessory",
+      "source_file": "../Luna_Character_Phase2/layers/Accessory/neck_accessory.png",
+      "source_size": [
+        1536,
+        2304
+      ],
+      "alpha_bounds_xyxy": [
+        608,
+        841,
+        928,
+        1235
+      ],
+      "crop_rect": [
+        596,
+        829,
+        344,
+        418
+      ],
+      "runtime_file": "runtime_layers/neck_accessory.png",
+      "runtime_size": [
+        344,
+        418
+      ],
+      "world_origin": [
+        596,
+        829
+      ],
+      "pivot": [
+        768,
+        885
+      ],
+      "pivot_runtime_local": [
+        172,
+        56
+      ],
+      "draw_order": 33,
+      "parent_bone": "neck_accessory",
+      "node_type": "Sprite2D",
+      "default_visible": true,
+      "padding_px": 12,
+      "source_sha256": "14c39e4b1ab990ae4c23a1b9153212a0ff9cbf003fc91cd9792b76c371be7db0",
+      "runtime_sha256": "b05e10dc89039d35558fe52cbe3c129bea4d9e65bebdf95cf8cfd8e0741002c6"
+    }
+  ],
+  "phase": "3.7 limb secondary motion and 6.4 second weight shift",
+  "eye_state_contract": "Full canvas, runtime common crop, world origin, pivot, Sprite2D positions identical per side; alpha contours differ by expression."
+}

@@ -1,0 +1,20 @@
+{
+	"failures": [],
+	"metrics": {
+		"mesh_flips": 0,
+		"mesh_max_ratio": 1.45548815126614,
+		"mesh_min_ratio": 0.472641792281261,
+		"normal_idle_exact": true,
+		"variant_history": [
+			"idle_look_around",
+			"idle_yawn",
+			"idle_look_around",
+			"idle_yawn",
+			"idle_look_around",
+			"idle_yawn"
+		],
+		"variants_foot_drift_px": 0.0
+	},
+	"pass": true,
+	"stage": "A"
+}

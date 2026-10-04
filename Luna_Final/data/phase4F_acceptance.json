@@ -1,0 +1,52 @@
+{
+	"failures": [],
+	"metrics": {
+		"attention_exit_max_step_degrees": 0.167969822883606,
+		"mesh_flips": 0,
+		"mesh_max_ratio": 1.4545418502724,
+		"mesh_min_ratio": 0.473102121607814,
+		"normal_idle_exact": true,
+		"signal_finished": [
+			"drag_start",
+			"land",
+			"blink_once",
+			"idle_yawn",
+			"blink_once"
+		],
+		"signal_started": [
+			"idle_normal",
+			"click_question",
+			"working_loop",
+			"feedback_success",
+			"drag_start",
+			"drag_hold",
+			"land",
+			"idle_normal",
+			"idle_normal",
+			"idle_yawn",
+			"blink_once",
+			"blink_once",
+			"idle_normal",
+			"idle_normal",
+			"idle_normal"
+		],
+		"signal_state_changed": [
+			"idle -> attention",
+			"attention -> click",
+			"click -> working",
+			"working -> feedback",
+			"feedback -> drag_start",
+			"drag_start -> drag_hold",
+			"drag_hold -> land",
+			"land -> idle",
+			"idle -> idle",
+			"idle -> idle_variant",
+			"idle_variant -> idle",
+			"idle -> attention",
+			"attention -> idle"
+		],
+		"test_scene_numeric_actions": 10
+	},
+	"pass": true,
+	"stage": "F"
+}

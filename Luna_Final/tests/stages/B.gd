@@ -1,0 +1,25 @@
+extends RefCounted
+func run(t: SceneTree) -> void:
+	var original: Array[Vector2]=t.feet()
+	t.pet.set_attention(true,Vector2(1450,650));t.advance(0.5)
+	t.check(t.pet.states.current_name=="attention","hover state")
+	t.check(absf(t.pet.rig.bones.head.rotation_degrees)<=3.0001,"attention head bound")
+	t.check(not t.pet.play_idle_variant(),"variants suppressed during attention")
+	t.pet.set_attention(true,Vector2(200,650));t.advance(0.6)
+	t.pet.set_attention(false,Vector2.ZERO);t.advance(0.45)
+	t.check(t.pet.states.current_name=="idle","smooth attention return")
+	var interaction: Node=t.pet.get_node("InteractionController")
+	interaction.click_times.clear();t.pet.notify_click(Vector2(1200,650));t.advance(.1)
+	t.check(t.pet.motion.clip=="click_question","single click")
+	t.pet.notify_click(Vector2(1200,650));t.advance(.1);t.pet.notify_click(Vector2(1200,650));t.advance(.05)
+	t.check(t.pet.motion.clip=="click_annoyed","triple click escalates")
+	for i in range(3):t.advance(.1);t.pet.notify_click(Vector2(1200,650))
+	t.check(t.pet.motion.clip=="click_angry_head","six clicks escalates")
+	var started: float=t.pet.motion.clock
+	t.advance(.2);t.pet.notify_click(Vector2(1200,650))
+	t.check(t.pet.motion.clock>started,"cooldown does not restart clip")
+	t.advance(2.1);t.check(t.pet.states.current_name=="idle","click returns to idle")
+	var current: Array[Vector2]=t.feet()
+	t.check(current==original,"attention/click feet fixed")
+	t.metrics.click_cooldown_seconds=2.0
+	t.metrics.attention_click_foot_drift_px=maxf(current[0].distance_to(original[0]),current[1].distance_to(original[1]))

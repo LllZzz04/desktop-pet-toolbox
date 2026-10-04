@@ -1,0 +1,42 @@
+{
+	"failures": [],
+	"metrics": {
+		"higher_priority_takeovers": {
+			"drag": true,
+			"success": true,
+			"working": true
+		},
+		"leg_max_area_ratio": 1.01636696437066,
+		"leg_min_area_ratio": 0.749615999645518,
+		"mesh_flips": 0,
+		"mesh_max_area_ratio": 1.27247598613535,
+		"mesh_min_area_ratio": 0.675640170896338,
+		"regions": {
+			"chest": {
+				"blink_closed_and_reopened": true,
+				"chain_error_px": 0.000172633488546126,
+				"foot_drift_px": 0.0,
+				"maximum_wrist_frame_step_px": 27.4328899383545,
+				"minimum_sleeve_area_ratio": 0.771036386489868,
+				"peak_cover": 1.0
+			},
+			"head": {
+				"blink_closed_and_reopened": true,
+				"chain_error_px": 0.0001220703125,
+				"foot_drift_px": 0.0,
+				"maximum_wrist_frame_step_px": 52.3448143005371,
+				"minimum_sleeve_area_ratio": 0.238711223006248,
+				"peak_cover": 1.0
+			},
+			"legs": {
+				"blink_closed_and_reopened": true,
+				"chain_error_px": 0.00013647876039613,
+				"foot_drift_px": 0.0,
+				"maximum_wrist_frame_step_px": 19.273006439209,
+				"minimum_sleeve_area_ratio": 1.0,
+				"peak_cover": 1.0
+			}
+		}
+	},
+	"pass": true
+}

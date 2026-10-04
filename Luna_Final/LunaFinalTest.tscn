@@ -1,0 +1,8 @@
+[gd_scene format=3]
+[ext_resource type="PackedScene" path="res://LunaPet.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/test_controller.gd" id="2"]
+[node name="LunaFinalTest" type="Node2D"]
+script=ExtResource("2")
+[node name="LunaPet" parent="." instance=ExtResource("1")]
+position=Vector2(390,60)
+scale=Vector2(0.28,0.28)

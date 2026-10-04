@@ -1,0 +1,13 @@
+{
+	"failures": [],
+	"metrics": {
+		"drag_body_max_degrees": 1.70846201568146,
+		"mesh_flips": 0,
+		"mesh_max_ratio": 1.19001662129104,
+		"mesh_min_ratio": 0.814013548571654,
+		"normal_idle_exact": true,
+		"post_contact_foot_drift_px": 0.0
+	},
+	"pass": true,
+	"stage": "C"
+}

@@ -1,0 +1,11 @@
+{
+  "idle": "res://states/idle.gd",
+  "idle_variant": "res://states/idle.gd",
+  "attention": "res://states/attention.gd",
+  "click": "res://states/click.gd",
+  "drag_start": "res://states/drag.gd",
+  "drag_hold": "res://states/drag.gd",
+  "land": "res://states/drag.gd",
+  "working": "res://states/working.gd",
+  "feedback": "res://states/feedback.gd"
+}

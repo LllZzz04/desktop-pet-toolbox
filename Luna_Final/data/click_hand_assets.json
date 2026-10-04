@@ -1,0 +1,131 @@
+{
+  "description": "Dedicated pose sprites, original atlas RGBA retained; sprite regions are not baked or mirrored.",
+  "families": {
+    "head": {
+      "texture": "res://assets/click_hands/head_hands.png",
+      "texture_sha256": "1015000e6e073f2d8473296ae688b499f2d45e371daa4cd76e0f8625a97dc0ca",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "sides": {
+        "R": {
+          "region": [
+            0,
+            0,
+            627,
+            1254
+          ],
+          "wrist_pixel": [
+            350,
+            1058
+          ],
+          "pixel_scale": 0.17,
+          "neutral_world_degrees": 55,
+          "rgba_region_sha256": "358d631f0fbc5a4ec0db9f95c6cceaba19f16d73f0dd10b7a948865047b36839",
+          "forward_degrees": -86
+        },
+        "L": {
+          "region": [
+            627,
+            0,
+            627,
+            1254
+          ],
+          "wrist_pixel": [
+            329,
+            1067
+          ],
+          "pixel_scale": 0.17,
+          "neutral_world_degrees": -55,
+          "rgba_region_sha256": "ec22983704d595cc2cd0a6daa21895f854f946c1610b2ae40430787bb0b4e06e",
+          "forward_degrees": -96
+        }
+      }
+    },
+    "chest": {
+      "texture": "res://assets/click_hands/chest_hands.png",
+      "texture_sha256": "d8958799b65562c7ae8b78a98ec05e6bf59b5479e9de32c443b9d9be5f78fde3",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "sides": {
+        "R": {
+          "region": [
+            0,
+            0,
+            627,
+            1254
+          ],
+          "wrist_pixel": [
+            157,
+            917
+          ],
+          "pixel_scale": 0.235,
+          "neutral_world_degrees": 70,
+          "rgba_region_sha256": "63db7df4c08829278fa9d1a88318e3e561041721d3503cbe8afc06b171b691bd",
+          "forward_degrees": -62
+        },
+        "L": {
+          "region": [
+            627,
+            0,
+            627,
+            1254
+          ],
+          "wrist_pixel": [
+            473,
+            918
+          ],
+          "pixel_scale": 0.235,
+          "neutral_world_degrees": -70,
+          "rgba_region_sha256": "7c2fd106d2880406fbe995f26b32cc95aa3abdc0ca8b7b84b4801f561f13e989",
+          "forward_degrees": -116
+        }
+      }
+    },
+    "legs": {
+      "texture": "res://assets/click_hands/legs_hands.png",
+      "texture_sha256": "3d6fc03377a02acaf53e111bbc35d475092b3943d0ac56de239d0823938b2161",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "sides": {
+        "R": {
+          "region": [
+            0,
+            0,
+            627,
+            1254
+          ],
+          "wrist_pixel": [
+            225,
+            340
+          ],
+          "pixel_scale": 0.22,
+          "neutral_world_degrees": 0,
+          "rgba_region_sha256": "de6cbc15738503f2b77bea6b1bfbb49725f1879b259f988f830904e09c22f2a2",
+          "forward_degrees": 66
+        },
+        "L": {
+          "region": [
+            627,
+            0,
+            627,
+            1254
+          ],
+          "wrist_pixel": [
+            404,
+            340
+          ],
+          "pixel_scale": 0.22,
+          "neutral_world_degrees": 0,
+          "rgba_region_sha256": "cd659e3227c6ee5a38bb2f0ba7a9f93861334363d5a24edba874675a1d752272",
+          "forward_degrees": 114
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"failures": [],
+	"metrics": {
+		"blink_compatible": true,
+		"mesh_flips": 0,
+		"mesh_max_ratio": 1.18191158410275,
+		"mesh_min_ratio": 0.812728958900529,
+		"normal_idle_exact": true,
+		"working_foot_drift_px": 0.0
+	},
+	"pass": true,
+	"stage": "D"
+}

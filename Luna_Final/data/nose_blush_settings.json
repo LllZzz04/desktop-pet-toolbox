@@ -1,0 +1,14 @@
+{
+  "baseline": "Luna_Character_Phase4_14",
+  "primary_rgb": [
+    244,
+    148,
+    136
+  ],
+  "source_blush_svg_unchanged": true,
+  "nose_alpha_multiplier": 0.12,
+  "center_width_px": 60,
+  "feather_outer_width_px": 130,
+  "motion_unchanged": true,
+  "implementation": "Localized smooth alpha falloff on the blush Sprite2D."
+}

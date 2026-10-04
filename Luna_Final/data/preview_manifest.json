@@ -1,0 +1,91 @@
+{
+  "pass": true,
+  "source": "Actual final Godot unified test scene",
+  "showcase": {
+    "file": "Luna_Final_Showcase.mp4",
+    "fps": 20,
+    "duration": 44.4,
+    "frames": 888,
+    "size": [
+      960,
+      800
+    ]
+  },
+  "gallery": "Luna_Final_Animations.png",
+  "clips": [
+    {
+      "file": "idle_variants.gif",
+      "fps": 20,
+      "frames": 176,
+      "start_seconds": 1.0,
+      "end_seconds": 9.8,
+      "size": [
+        378,
+        480
+      ]
+    },
+    {
+      "file": "attention.gif",
+      "fps": 20,
+      "frames": 52,
+      "start_seconds": 10.5,
+      "end_seconds": 13.1,
+      "size": [
+        378,
+        480
+      ]
+    },
+    {
+      "file": "click_feedback.gif",
+      "fps": 20,
+      "frames": 53,
+      "start_seconds": 13.5,
+      "end_seconds": 16.15,
+      "size": [
+        378,
+        480
+      ]
+    },
+    {
+      "file": "drag_and_land.gif",
+      "fps": 20,
+      "frames": 96,
+      "start_seconds": 25.5,
+      "end_seconds": 30.3,
+      "size": [
+        378,
+        480
+      ]
+    },
+    {
+      "file": "working.gif",
+      "fps": 20,
+      "frames": 80,
+      "start_seconds": 30.4,
+      "end_seconds": 34.4,
+      "size": [
+        378,
+        480
+      ]
+    },
+    {
+      "file": "success_error.gif",
+      "fps": 20,
+      "frames": 112,
+      "start_seconds": 34.4,
+      "end_seconds": 40.0,
+      "size": [
+        378,
+        480
+      ]
+    }
+  ],
+  "retained_approved_previews": [
+    "success_v2.gif",
+    "success_v2.mp4",
+    "success_keyposes.png",
+    "angry_click_head.gif",
+    "angry_click_chest.gif",
+    "angry_legs_crouch.gif"
+  ]
+}
